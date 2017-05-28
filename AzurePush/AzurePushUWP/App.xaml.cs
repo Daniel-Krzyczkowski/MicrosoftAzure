@@ -41,7 +41,7 @@ namespace AzurePushUWP
         {
         var channel = await PushNotificationChannelManager.CreatePushNotificationChannelForApplicationAsync();
 
-            var hub = new NotificationHub("<<YOUR LISTEN CONNECTION STRING>>", "<<YOUR AZURE NOTIFICATION HUB NAME>>");
+            var hub = new NotificationHub("<<YOUR AZURE NOTIFICATION HUB NAME>>", "<<YOUR LISTEN CONNECTION STRING>>");
             var result = await hub.RegisterNativeAsync(channel.Uri);
             channel.PushNotificationReceived += Channel_PushNotificationReceived;
 
