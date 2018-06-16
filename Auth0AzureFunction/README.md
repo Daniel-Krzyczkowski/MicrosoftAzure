@@ -74,4 +74,13 @@ Sign in to [Microsoft Azure Portal](https://portal.azure.com) and follow below i
 
 Replace below initial code for function with source code [run.csx file](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/run.csx)
 
-Now upload [project.json file](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/project.json). This file is required to retrieve Microsoft.IdentityModel.Protocols.OpenIdConnect nuget package.
+Now upload [project.json file](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/project.json). This file is required to retrieve Microsoft.IdentityModel.Protocols.OpenIdConnect nuget package:
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF13.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF14.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
