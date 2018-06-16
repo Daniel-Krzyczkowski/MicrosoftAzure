@@ -152,6 +152,21 @@ in the project:
 Build project and launch the application (UWP, Android or iOS). Once you create account (or sign in), greetings from Azure Function should appear:
 
 
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF1.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF2.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF4.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
 
 
 
