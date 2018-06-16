@@ -51,8 +51,8 @@ public static class AuthenticationService
     {
         private static readonly IConfigurationManager<OpenIdConnectConfiguration> _configurationManager;
 
-        private static readonly string ISSUER = "https://devisland.eu.auth0.com/";
-        private static readonly string AUDIENCE = "devisland";
+        private static readonly string ISSUER = ""; //From Auth0 portal, ex: https://devisland.eu.auth0.com/
+        private static readonly string AUDIENCE = ""; // From Auth0 portal, ex: devisland
 
         static AuthenticationService()
         {
