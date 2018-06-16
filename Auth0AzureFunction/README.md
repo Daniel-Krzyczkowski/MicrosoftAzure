@@ -161,7 +161,7 @@ Build project and launch the application (UWP, Android or iOS). Once you create 
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF3.png" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
