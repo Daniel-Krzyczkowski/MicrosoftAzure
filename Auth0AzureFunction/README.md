@@ -136,3 +136,7 @@ Now click Save and verify if compilation succeeded:
 </p>
 
 
+
+## Xamarin Forms application configuration:
+
+
