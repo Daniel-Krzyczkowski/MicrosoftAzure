@@ -67,4 +67,9 @@ Sign in to [Microsoft Azure Portal](https://portal.azure.com)and follow below in
 <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF11.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF12.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+
 Replace below initial code for function with source code [run.csx file](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/run.csx)
