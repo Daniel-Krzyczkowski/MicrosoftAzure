@@ -1,0 +1,9 @@
+{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+        "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.2.2"
+      }
+    }
+   }
+}
