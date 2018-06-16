@@ -84,3 +84,14 @@ Now upload [project.json file](https://github.com/Daniel-Krzyczkowski/MicrosoftA
 <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF14.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
+Now click Save and verify if compilation succeeded:
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF15.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF16.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+
