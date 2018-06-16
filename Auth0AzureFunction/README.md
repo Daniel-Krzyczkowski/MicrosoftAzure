@@ -15,6 +15,35 @@ Please follow below instructions to configure solution:
 
 API application and client (mobile) application has to be created in [Auth0 Portal](https://auth0.com) to enable Auth0 authentication. Please follow below instructions:
 
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth1.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth2.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth4.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth5.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth6.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth7.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+
 
 
 ## Microsoft Azure Function configuration:
