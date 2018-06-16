@@ -11,6 +11,12 @@ This repository contains sample to help developers implement Auth0 authenticatio
 In this Proof of Concept (PoC) I secured acces to Microsoft Azure Function access with Auth0. In Xamarin Forms application user has to authenticate first, then access Azure Function with access token retrieved from Auth0 API application.
 Please follow below instructions to configure solution:
 
+## Auth0 API application configuration
+
+API application and client (mobile) application has to be created in [Auth0 Portal](https://auth0.com) to enable Auth0 authentication. Please follow below instructions:
+
+
+
 ## Microsoft Azure Function configuration:
 
 Sign in to [Microsoft Azure Portal](https://portal.azure.com) and follow below instructions:
