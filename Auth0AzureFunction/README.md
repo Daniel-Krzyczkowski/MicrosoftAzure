@@ -73,3 +73,5 @@ Sign in to [Microsoft Azure Portal](https://portal.azure.com) and follow below i
 
 
 Replace below initial code for function with source code [run.csx file](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/run.csx)
+
+Now upload [project.json file](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/project.json). This file is required to retrieve Microsoft.IdentityModel.Protocols.OpenIdConnect nuget package.
