@@ -13,7 +13,7 @@ Please follow below instructions to configure solution:
 
 Microsoft Azure Function configuration:
 
-Sign in to [Microsoft Azure Portal](https://portal.azure.com)and follow below instructions:
+Sign in to [Microsoft Azure Portal](https://portal.azure.com) and follow below instructions:
 
 
 <p align="center">
