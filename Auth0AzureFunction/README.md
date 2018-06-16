@@ -141,4 +141,13 @@ Now click Save and verify if compilation succeeded:
 
 Download Xamarin Forms application [source code](https://github.com/Daniel-Krzyczkowski/Xamarin/tree/master/XamarinForms/Auth0XamarinForms)
 
+[Auth0 OIDC Client for .NET](https://github.com/auth0/auth0-oidc-client-net) is used to secure application with Auth0.
+
+Update two [configuration files](https://github.com/Daniel-Krzyczkowski/Xamarin/tree/master/XamarinForms/Auth0XamarinForms/Auth0XamarinForms/Auth0XamarinForms/Config)
+in the project:
+
+* AuthenticationConfig
+* Azure Config
+
+
 
