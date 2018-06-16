@@ -17,6 +17,8 @@ Please follow below instructions to configure solution:
 
 API application and client (mobile) application has to be created in [Auth0 Portal](https://auth0.com) to enable Auth0 authentication. Please follow below instructions:
 
+### Create API application:
+
 <p align="center">
 <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth1.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
@@ -28,6 +30,8 @@ API application and client (mobile) application has to be created in [Auth0 Port
 <p align="center">
 <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
+
+### Create mobile application client (Xamarin):
 
 <p align="center">
 <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth4.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
