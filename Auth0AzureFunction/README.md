@@ -1,12 +1,14 @@
 
 # Auth0 secured Microsoft Azure Function with Xamarin Forms
+
+This repository contains sample to help developers implement Auth0 authentication in Microsoft Azure Function and Xamarin Forms application.
+
 <p align="center">
 <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 <br/>
 <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
-This repository contains sample to help developers implement Auth0 authentication in Microsoft Azure Function and Xamarin Forms application.
 
 In this Proof of Concept (PoC) I secured acces to Microsoft Azure Function access with Auth0. In Xamarin Forms application user has to authenticate first, then access Azure Function with access token retrieved from Auth0 API application.
 Please follow below instructions to configure solution:
