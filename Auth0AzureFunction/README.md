@@ -149,5 +149,10 @@ in the project:
 * AuthenticationConfig
 * Azure Config
 
+Build project and launch the application (UWP, Android or iOS). Once you create account (or sign in), greetings from Azure Function should appear:
+
+
+
+
 
 
