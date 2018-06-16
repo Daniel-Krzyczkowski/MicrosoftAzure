@@ -1,5 +1,5 @@
 
-# Microsoft Azure Function with Xamarin Forms - secured with Auth0
+# Microsoft Azure Function and Xamarin Forms - secured with Auth0
 
 This repository contains sample to help developers implement Auth0 authentication in Microsoft Azure Function and Xamarin Forms application.
 
@@ -138,5 +138,7 @@ Now click Save and verify if compilation succeeded:
 
 
 ## Xamarin Forms application configuration:
+
+Download Xamarin Forms application [source code](https://github.com/Daniel-Krzyczkowski/Xamarin/tree/master/XamarinForms/Auth0XamarinForms)
 
 
