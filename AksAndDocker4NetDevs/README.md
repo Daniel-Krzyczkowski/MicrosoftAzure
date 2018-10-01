@@ -145,6 +145,7 @@ Example:
 docker push devislandacr.azurecr.io/samples/aspondockersampleweb:latest
 
 You can find more information in the official Microsoft documentation:
+
 https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-azure-cli
 
 
@@ -256,3 +257,8 @@ http://168.63.5.219/testpath/api/values
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker28.png"/>
 </p>
+
+You can find more information in the official Microsoft documentation:
+
+https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal
+
