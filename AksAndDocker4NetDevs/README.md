@@ -4,9 +4,9 @@
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker0.png"/>
 </p>
+&nbsp;
 
-
-First, install Azure Command Line Interface:
+### First, install Azure Command Line Interface:
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
 &nbsp;
