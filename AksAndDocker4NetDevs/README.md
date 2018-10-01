@@ -90,23 +90,37 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 ## ASP .NET CORE WEB APP CONFIGURATION – STEP BY STEP
 
+1. Open Visual Studio 2017 and create new Web App project (ASP .NET Core):
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker23.png"/>
 </p>
 
+2. Select “Enable Docker Support” checkbox and click “OK”:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker24.png"/>
 </p>
+
+3. You should see newly created project with Docker support:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker25.png"/>
 </p>
 
+4. Set “docker-compose” as startup project:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker26.png"/>
 </p>
 
+5. Run application in the local Docker container by clicking “Docker” button in the Visual Studio:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker27.png"/>
 </p>
+
+That’s it, now you know how to run ASP .NET Core web app using Docker container. 
+
+
+## AZURE CONTAINER REGISTRY (ACR) CONFIGURATION – STEP BY STEP
