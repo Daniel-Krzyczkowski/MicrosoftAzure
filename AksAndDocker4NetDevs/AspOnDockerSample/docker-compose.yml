@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspondockersample.web:
+    image: ${DOCKER_REGISTRY}aspondockersampleweb
+    build:
+      context: .
+      dockerfile: AspOnDockerSample.Web/Dockerfile
