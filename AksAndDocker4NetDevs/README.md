@@ -208,3 +208,39 @@ helm ls --all dev-island-nginx
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker15.png"/>
 </p>
 
+Apply ingress configuration:
+kubectl apply -f ingress.yaml  (namespace already included in the file)
+6. Open ACR blade in the Microsoft Azure portal. In the Access keys section you will find registry name, username and password.
+
+Login to ACR using below command in the Azure CLI:
+ az acr login --name [registry name]
+
+Create secret using below command:
+
+kubectl create secret docker-registry [acr connection name] --docker-server=[acr_name].azurecr.io --docker-username=[from the azure portal] --docker-password=[from the azure portal] --docker-email=docker-email=<<e-mail address>> --namespace [namespace name]
+
+Registry name, username and password can be found in Azure portal in ACR blade and Access key section.
+
+Once secret is created service account file should be updated.
+
+Get file using below command:
+kubectl get serviceaccounts default --namespace [namespace name] -o yaml > serviceaccount.yaml
+
+Open file and add imagePullSecrets section at the bottom of the file with the name of connection:
+imagePullSecrets:
+- name: [acr connection name]
+
+Apply changes with below command:
+kubectl replace serviceaccount default -f serviceaccount.yaml --namespace [namespace name]
+
+6. Apply Ingress configuration in the specific namespace (dev-island in this case):
+
+kubectl apply -f ingress.yaml (namespace already included in the file)
+
+7. Apply sample-webapi-service:
+
+kubectl apply -f sample-webapi-service.yaml  (namespace already included in the file)
+
+8. Apply sample-webapi-deployment:
+
+kubectl apply -f sample-webapi-deployment.yaml  (namespace already included in the file)
