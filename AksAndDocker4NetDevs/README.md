@@ -156,3 +156,18 @@ https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get
 
 
 ## AZURE KUBERNETES SERVICE (AKS) CONFIGURATION – STEP BY STEP
+
+1. Login with Azure Command Line Interface:
+ az login --tenant [tenant name]
+ 
+Open browser and paste the code displayed on the console.
+
+2. Create public static IP address:
+az network public-ip create --resource-group MC… --name [name of created address] --allocation-method static
+
+See the result in the console and in the Azure portal:
+168.63.5.219
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker12.png"/>
+</p>
