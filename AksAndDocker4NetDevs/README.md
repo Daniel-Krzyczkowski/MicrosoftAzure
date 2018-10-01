@@ -124,3 +124,30 @@ That’s it, now you know how to run ASP .NET Core web app using Docker containe
 
 
 ## AZURE CONTAINER REGISTRY (ACR) CONFIGURATION – STEP BY STEP
+
+1. Login with Azure Command Line Interface:
+ az login --tenant [tenant name]
+Open browser and paste the code displayed on the console.
+
+2. Login to the ACR with below command:
+ az acr login --name [acr name]
+
+3. Tag Docker image with below command:
+docker tag [image id] [acr name]. azurecr.io/[image name]:[image tag]
+Example:
+docker tag 3d233184a5d7 devislandacr.azurecr.io/samples/aspondockersampleweb
+
+4. Push Docker image to the ACR with below command:
+docker push [ACR NAME]. azurecr.io/samples/samplewebapi:dev
+Example:
+docker push devislandacr.azurecr.io/samples/aspondockersampleweb:latest
+
+You can find more information in the official Microsoft documentation:
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-azure-cli
+
+
+5. You can verify whether Docker image was pushed to the ACR in the Azure portal:
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker28.png"/>
+</p>
