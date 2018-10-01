@@ -9,6 +9,7 @@
 First, install Azure Command Line Interface:
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
+&nbsp;
 
 ## CREATE AZURE KUBERNETES SERVICE CLUSTER
 
