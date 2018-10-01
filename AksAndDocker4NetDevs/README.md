@@ -134,11 +134,13 @@ Open browser and paste the code displayed on the console.
 
 3. Tag Docker image with below command:
 docker tag [image id] [acr name]. azurecr.io/[image name]:[image tag]
+
 Example:
 docker tag 3d233184a5d7 devislandacr.azurecr.io/samples/aspondockersampleweb
 
 4. Push Docker image to the ACR with below command:
 docker push [ACR NAME]. azurecr.io/samples/samplewebapi:dev
+
 Example:
 docker push devislandacr.azurecr.io/samples/aspondockersampleweb:latest
 
@@ -151,3 +153,6 @@ https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker28.png"/>
 </p>
+
+
+## AZURE KUBERNETES SERVICE (AKS) CONFIGURATION – STEP BY STEP
