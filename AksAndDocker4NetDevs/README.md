@@ -57,3 +57,30 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 ## CREATE AZURE CONTAINER REGISTRY
 
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker16.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker17.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker18.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker19.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker20.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker21.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker22.png"/>
+</p>
