@@ -176,3 +176,24 @@ See the result in the console and in the Azure portal:
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker13.png"/>
 </p>
 
+3. Create new namespace: dev-island using command:
+kubectl apply -f aks-namespace.yaml
+
+4. Download Helm and install NGINX ingress with it:
+
+https://github.com/helm/helm/releases
+
+Download Helm from the Binary Releases. 
+
+5. Login to Azure subscription through Azure Command Line:
+az login --tenant [tenant name]
+
+Get the credentials for the AKS cluster by running the following command:
+az aks get-credentials --resource-group [aks resource group] --name [aks cluster name]
+
+Install Tiller inside the AKS cluster using below command:
+helm init
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker14.png"/>
+</p>
