@@ -88,7 +88,7 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker22.png"/>
 </p>
 
-
+&nbsp;
 ## ASP .NET CORE WEB APP CONFIGURATION – STEP BY STEP
 
 1. Open Visual Studio 2017 and create new Web App project (ASP .NET Core):
@@ -123,7 +123,7 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 That’s it, now you know how to run ASP .NET Core web app using Docker container. 
 
-
+&nbsp;
 ## AZURE CONTAINER REGISTRY (ACR) CONFIGURATION – STEP BY STEP
 
 1. Login with Azure Command Line Interface:
@@ -163,7 +163,7 @@ https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker28.png"/>
 </p>
 
-
+&nbsp;
 ## AZURE KUBERNETES SERVICE (AKS) CONFIGURATION – STEP BY STEP
 
 1. Login with Azure Command Line Interface:
@@ -270,6 +270,8 @@ kubectl apply -f sample-webapi-service.yaml  (namespace already included in the 
 ```
 kubectl apply -f sample-webapi-deployment.yaml  (namespace already included in the file)
 ```
+
+&nbsp;
 ## TEST
 
 Open browser and type the IP address together with the path to the selected microservice. In this case:
