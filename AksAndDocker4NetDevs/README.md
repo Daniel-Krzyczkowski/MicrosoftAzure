@@ -246,3 +246,13 @@ kubectl apply -f sample-webapi-service.yaml  (namespace already included in the 
 8. Apply sample-webapi-deployment:
 
 kubectl apply -f sample-webapi-deployment.yaml  (namespace already included in the file)
+
+## TEST
+
+Open browser and type the IP address together with the path to the selected microservice. In this case:
+
+http://168.63.5.219/testpath/api/values
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker28.png"/>
+</p>
