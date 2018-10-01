@@ -173,7 +173,7 @@ Open browser and paste the code displayed on the console.
 
 2. Create public static IP address:
 ```
-az network public-ip create --resource-group MC… --name [name of created address] --allocation-method static
+az network public-ip create --resource-group [MC…] --name [name of created address] --allocation-method static
 ```
 See the result in the console and in the Azure portal:
 ```
