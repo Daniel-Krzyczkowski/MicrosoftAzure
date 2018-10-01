@@ -2,5 +2,5 @@
 
 
 <p align="center">
-  <img src="https://github.com/Daniel-Krzyczkowski/Daniel-Krzyczkowski.github.io/blob/master/cloudyofthings/article1/assets/MotionDetectorAzure15.PNG?raw=true" alt="MotionDetectorAzure15.png"/>
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker0.png"/>
 </p>
