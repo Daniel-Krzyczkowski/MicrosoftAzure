@@ -255,7 +255,7 @@ Open browser and type the IP address together with the path to the selected micr
 http://168.63.5.219/testpath/api/values
 
 <p align="center">
-  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker28.png"/>
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker29.png"/>
 </p>
 
 You can find more information in the official Microsoft documentation:
