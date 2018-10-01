@@ -8,6 +8,7 @@
 First, install Azure Command Line Interface:
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
+
 ## CREATE AZURE KUBERNETES SERVICE CLUSTER
 
 <p align="center">
@@ -20,4 +21,24 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker3.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker4.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker5.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker6.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker7.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker8.png"/>
 </p>
