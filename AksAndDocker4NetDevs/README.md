@@ -197,3 +197,14 @@ helm init
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker14.png"/>
 </p>
+
+Install nginx ingress controller using helm chart:
+helm install stable/nginx-ingress --namespace kube-system --name [nginx name] --set rbac.create=false,controller.service.loadBalancerIP=" [generated static IP address] ",controller.service.externalTrafficPolicy="Local"
+
+Verify installation using command:
+helm ls --all dev-island-nginx
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker15.png"/>
+</p>
+
