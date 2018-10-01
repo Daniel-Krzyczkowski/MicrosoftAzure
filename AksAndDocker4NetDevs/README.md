@@ -225,7 +225,10 @@ helm ls --all dev-island-nginx
 </p>
 
 Apply ingress configuration:
+```
 kubectl apply -f ingress.yaml  (namespace already included in the file)
+```
+
 6. Open ACR blade in the Microsoft Azure portal. In the Access keys section you will find registry name, username and password.
 
 Login to ACR using below command in the Azure CLI:
