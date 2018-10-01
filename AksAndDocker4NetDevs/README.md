@@ -286,3 +286,4 @@ You can find more information in the official Microsoft documentation:
 
 https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal
 
+Code sample of ASP .NET Core app is available in this repository.
