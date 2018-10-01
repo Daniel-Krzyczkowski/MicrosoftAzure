@@ -227,8 +227,10 @@ Get file using below command:
 kubectl get serviceaccounts default --namespace [namespace name] -o yaml > serviceaccount.yaml
 
 Open file and add imagePullSecrets section at the bottom of the file with the name of connection:
+```
 imagePullSecrets:
 - name: [acr connection name]
+```
 
 Apply changes with below command:
 kubectl replace serviceaccount default -f serviceaccount.yaml --namespace [namespace name]
