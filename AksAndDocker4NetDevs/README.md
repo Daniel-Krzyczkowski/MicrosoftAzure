@@ -11,6 +11,8 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 &nbsp;
 
+### Files for Kubernetes configuration are located in the K8S folder in this repository.
+
 ## CREATE AZURE KUBERNETES SERVICE CLUSTER
 
 <p align="center">
