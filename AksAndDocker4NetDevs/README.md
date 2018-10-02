@@ -90,11 +90,13 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 ## CREATE AZURE CONTAINER REGISTRY
 &nbsp;
 
-1. Create new:
+1. Create new resource group dedicated for Azure Container Registry:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker16.png"/>
 </p>
+
+2. In the newly created resource group click "Add" button and type "container registry". Click "Create" button:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker17.png"/>
