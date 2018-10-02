@@ -9,9 +9,13 @@
 ###### First, install Azure Command Line Interface:
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
-&nbsp;
-
 ###### Files for Kubernetes configuration are located in the K8S folder in this repository.
+
+###### Code sample of ASP .NET Core app is available in this repository.
+
+###### You can find more information in the official Microsoft documentation:
+
+https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal
 
 &nbsp;
 
@@ -54,19 +58,25 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker6.png"/>
 </p>
 
-7. In the "Networking" tab:
+7. In the "Networking" tab set "HTTP application routing" to "NO" and set "Network configuration" to "Basic". Click "Next..." button:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker30.png"/>
 </p>
 
+8. In the "Monitoring" tab enable containers monitoring. Click "Next..." button:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker7.png"/>
 </p>
 
+9. Leave "Tags" tab with no tags:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker8.png"/>
 </p>
+
+10. Last step is validation and acceptance of the configuration. Once ASK cluster is created you should see it in the Azure portal:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker9.png"/>
@@ -80,12 +90,17 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker11.png"/>
 </p>
 
-
+&nbsp;
 ## CREATE AZURE CONTAINER REGISTRY
+&nbsp;
+
+1. Create new resource group dedicated for Azure Container Registry:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker16.png"/>
 </p>
+
+2. In the newly created resource group click "Add" button and type "container registry". Click "Create" button:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker17.png"/>
@@ -99,9 +114,13 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker19.png"/>
 </p>
 
+3. Type the name of the Azure Container Registry, select Azure subscription, resource group, location. Set "Admin user" to "NO" and set "SKU" to "Standard". Then click "Create" button:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker20.png"/>
 </p>
+
+4. You should see created Container Registry in the portal:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker21.png"/>
@@ -113,6 +132,7 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 &nbsp;
 ## ASP .NET CORE WEB APP CONFIGURATION – STEP BY STEP
+&nbsp;
 
 1. Open Visual Studio 2017 and create new Web App project (ASP .NET Core):
 
@@ -148,6 +168,7 @@ That’s it, now you know how to run ASP .NET Core web app using Docker containe
 
 &nbsp;
 ## AZURE CONTAINER REGISTRY (ACR) CONFIGURATION – STEP BY STEP
+&nbsp;
 
 1. Login with Azure Command Line Interface:
 ```
@@ -188,6 +209,7 @@ https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get
 
 &nbsp;
 ## AZURE KUBERNETES SERVICE (AKS) CONFIGURATION – STEP BY STEP
+&nbsp;
 
 1. Login with Azure Command Line Interface:
 ```
@@ -296,6 +318,7 @@ kubectl apply -f sample-webapi-deployment.yaml  (namespace already included in t
 
 &nbsp;
 ## TEST
+&nbsp;
 
 Open browser and type the IP address together with the path to the selected microservice. In this case:
 
@@ -305,8 +328,3 @@ http://168.63.5.219/testpath/api/values
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker29.png"/>
 </p>
 
-You can find more information in the official Microsoft documentation:
-
-https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal
-
-Code sample of ASP .NET Core app is available in this repository.
