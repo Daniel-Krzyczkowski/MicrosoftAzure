@@ -110,11 +110,13 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker19.png"/>
 </p>
 
-3. Type the name of the Azure Container Registry, select Azure subscription, resource group, location. Set "Admin user" to "NO" and set "SKU" to "Standard":
+3. Type the name of the Azure Container Registry, select Azure subscription, resource group, location. Set "Admin user" to "NO" and set "SKU" to "Standard". Then click "Create" button:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker20.png"/>
 </p>
+
+4. You should see created Container Registry in the portal:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker21.png"/>
@@ -203,6 +205,7 @@ https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get
 
 &nbsp;
 ## AZURE KUBERNETES SERVICE (AKS) CONFIGURATION – STEP BY STEP
+&nbsp;
 
 1. Login with Azure Command Line Interface:
 ```
@@ -311,6 +314,7 @@ kubectl apply -f sample-webapi-deployment.yaml  (namespace already included in t
 
 &nbsp;
 ## TEST
+&nbsp;
 
 Open browser and type the IP address together with the path to the selected microservice. In this case:
 
