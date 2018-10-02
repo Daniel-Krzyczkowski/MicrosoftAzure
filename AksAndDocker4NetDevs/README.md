@@ -9,11 +9,7 @@
 ###### First, install Azure Command Line Interface:
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
-&nbsp;
-
 ###### Files for Kubernetes configuration are located in the K8S folder in this repository.
-
-&nbsp;
 
 ###### You can find more information in the official Microsoft documentation:
 
