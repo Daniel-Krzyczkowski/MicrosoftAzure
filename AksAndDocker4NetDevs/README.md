@@ -11,11 +11,11 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 ###### Files for Kubernetes configuration are located in the K8S folder in this repository.
 
+###### Code sample of ASP .NET Core app is available in this repository.
+
 ###### You can find more information in the official Microsoft documentation:
 
 https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal
-
-###### Code sample of ASP .NET Core app is available in this repository.
 
 &nbsp;
 
