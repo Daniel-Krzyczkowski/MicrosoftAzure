@@ -54,19 +54,25 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker6.png"/>
 </p>
 
-7. In the "Networking" tab:
+7. In the "Networking" tab set "HTTP application routing" to "NO" and set "Network configuration" to "Basic". Click "Next..." button:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker30.png"/>
 </p>
 
+8. In the "Monitoring" tab enable containers monitoring. Click "Next..." button:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker7.png"/>
 </p>
 
+9. Leave "Tags" tab with no tags:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker8.png"/>
 </p>
+
+10. Last step is validation and acceptance of the configuration. Once ASK cluster is created you should see it in the Azure portal:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker9.png"/>
