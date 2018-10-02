@@ -1,0 +1,21 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: devisland-asp-ondocker-container-deployment
+  namespace: dev-island
+spec:
+  selector:
+    matchLabels:
+      app: devisland-asp-ondocker-container-app
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: devisland-asp-ondocker-container-app
+    spec:
+      containers:
+      - name: devisland-asp-ondocker-container 
+        image: devislandacr.azurecr.io/samples/aspondockersampleweb:latest 
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
