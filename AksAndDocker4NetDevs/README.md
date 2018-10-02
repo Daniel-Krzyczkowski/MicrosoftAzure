@@ -48,6 +48,8 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker5.png"/>
 </p>
 
+6. In the "Authentication" tab leave "default service principal" selection and set RBAC to "NO". Click "Next..." button: 
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker6.png"/>
 </p>
