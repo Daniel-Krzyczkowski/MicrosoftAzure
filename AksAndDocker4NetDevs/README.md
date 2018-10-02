@@ -86,8 +86,11 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker11.png"/>
 </p>
 
-
+&nbsp;
 ## CREATE AZURE CONTAINER REGISTRY
+&nbsp;
+
+1. Create new:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker16.png"/>
@@ -119,6 +122,7 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 &nbsp;
 ## ASP .NET CORE WEB APP CONFIGURATION – STEP BY STEP
+&nbsp;
 
 1. Open Visual Studio 2017 and create new Web App project (ASP .NET Core):
 
