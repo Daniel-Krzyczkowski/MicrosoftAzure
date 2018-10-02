@@ -18,21 +18,31 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 ## CREATE AZURE KUBERNETES SERVICE CLUSTER
 &nbsp;
 
+1. Sign in to [Microsoft Azure Portal](https://portal.azure.com) and create new resource group dedicated for AKS:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker1.png"/>
 </p>
+
+2. Inside newly created resource group click "Add" button:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker2.png"/>
 </p>
 
+3. Search for "AKS":
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker3.png"/>
 </p>
 
+4. Click "Create" button:
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker4.png"/>
 </p>
+
+5. In the first tab called "Basics" you have to provide information about Azure subscription, resource group (created above), Kubernetes cluster name, region, Kubernetes version, DNS prefix, node size and node count like presented below. Then click "Next..." button:
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker5.png"/>
