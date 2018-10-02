@@ -15,6 +15,14 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
 
 &nbsp;
 
+###### You can find more information in the official Microsoft documentation:
+
+https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal
+
+###### Code sample of ASP .NET Core app is available in this repository.
+
+&nbsp;
+
 ## CREATE AZURE KUBERNETES SERVICE CLUSTER
 &nbsp;
 
@@ -324,8 +332,3 @@ http://168.63.5.219/testpath/api/values
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker29.png"/>
 </p>
 
-You can find more information in the official Microsoft documentation:
-
-https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal
-
-Code sample of ASP .NET Core app is available in this repository.
