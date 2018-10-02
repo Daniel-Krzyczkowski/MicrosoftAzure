@@ -154,6 +154,7 @@ That’s it, now you know how to run ASP .NET Core web app using Docker containe
 
 &nbsp;
 ## AZURE CONTAINER REGISTRY (ACR) CONFIGURATION – STEP BY STEP
+&nbsp;
 
 1. Login with Azure Command Line Interface:
 ```
