@@ -291,7 +291,7 @@ Once secret is created service account file should be updated.
 
 Get file using below command:
 ```
-kubectl get serviceaccounts default --namespace [namespace name] -o yaml > serviceaccount.yaml
+kubectl get serviceaccounts default -o yaml > serviceaccount.yaml
 ```
 Open file and add imagePullSecrets section at the bottom of the file with the name of connection:
 ```
@@ -301,7 +301,7 @@ imagePullSecrets:
 
 Apply changes with below command:
 ```
-kubectl replace serviceaccount default -f serviceaccount.yaml --namespace [namespace name]
+kubectl replace serviceaccount default -f serviceaccount.yaml
 ```
 6. Apply Ingress configuration in the specific namespace (dev-island in this case):
 ```
