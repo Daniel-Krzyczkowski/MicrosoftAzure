@@ -110,6 +110,8 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker19.png"/>
 </p>
 
+3. Type the name of the Azure Container Registry, select Azure subscription, resource group, location. Set "Admin user" to "NO" and set "SKU" to "Standard":
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker20.png"/>
 </p>
