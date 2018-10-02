@@ -54,6 +54,12 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-late
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker6.png"/>
 </p>
 
+7. In the "Networking" tab:
+
+<p align="center">
+  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker30.png"/>
+</p>
+
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker7.png"/>
 </p>
