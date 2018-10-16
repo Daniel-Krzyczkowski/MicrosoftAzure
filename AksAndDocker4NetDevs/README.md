@@ -6,6 +6,9 @@
 </p>
 &nbsp;
 
+#### You can find my introduction to Docker and AKS in the presentation in this repository:
+[Docker and Azure Kubernetes Service 4 .NET Developers](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/AKSandDocker4developers.pdf)
+
 ###### First, install Azure Command Line Interface:
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
@@ -322,7 +325,8 @@ kubectl apply -f sample-webapi-deployment.yaml  (namespace already included in t
 
 Open browser and type the IP address together with the path to the selected microservice. In this case:
 
-http://168.63.5.219/testpath/api/greeting
+http://168.63.5.219/testpath/api/greeting
+
 
 <p align="center">
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker29.png"/>
