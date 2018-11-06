@@ -320,7 +320,7 @@ kubectl apply -f sample-webapi-deployment.yaml  (namespace already included in t
 
 Open browser and type the IP address together with the path to the selected microservice. In this case:
 
-http://168.63.5.219/testpath/api/greeting
+http://168.63.5.219/samples/api/greeting
 
 
 <p align="center">
