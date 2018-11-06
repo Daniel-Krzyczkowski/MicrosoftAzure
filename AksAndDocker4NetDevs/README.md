@@ -191,7 +191,7 @@ docker tag [image id] [acr name]. azurecr.io/[image name]:[image tag]
 ```
 Example:
 ```
-docker tag 3d233184a5d7 devislandacr.azurecr.io/samples/aspondockersampleweb
+docker tag 3d233184a5d7 devislandacr.azurecr.io/samples/aspondockersampleweb:dev
 ```
 4. Push Docker image to the ACR with below command:
 ```
