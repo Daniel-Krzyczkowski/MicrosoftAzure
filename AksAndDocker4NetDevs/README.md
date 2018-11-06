@@ -281,7 +281,7 @@ Now new secret should be created to provide access to the Container Registry fro
 
 Create secret using below command:
 ```
-kubectl create secret docker-registry [acr connection name] --docker-server=[acr_name].azurecr.io --docker-username=[from the azure portal] --docker-password=[from the azure portal] --docker-email=docker-email=<<e-mail address>> --namespace [namespace name]
+kubectl create secret docker-registry [acr connection name] --docker-server=[acr_name].azurecr.io --docker-username=[from the azure portal] --docker-password=[from the azure portal] --docker-email=docker-email=[e-mail address] --namespace [namespace name]
 ```
 Registry name, username and password can be found in Azure portal in ACR blade and Access key section.
 
