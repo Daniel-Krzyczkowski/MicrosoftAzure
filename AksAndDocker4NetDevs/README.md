@@ -275,11 +275,6 @@ helm ls --all dev-island-nginx
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker15.png"/>
 </p>
 
-Apply ingress configuration:
-```
-kubectl apply -f ingress.yaml  (namespace already included in the file)
-```
-
 6. Open ACR blade in the Microsoft Azure portal. In the Access keys section you will find registry name, username and password.
 
 Now new secret should be created to provide access to the Container Registry from the AKS cluster.
