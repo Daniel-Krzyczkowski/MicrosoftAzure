@@ -282,10 +282,8 @@ kubectl apply -f ingress.yaml  (namespace already included in the file)
 
 6. Open ACR blade in the Microsoft Azure portal. In the Access keys section you will find registry name, username and password.
 
-Login to ACR using below command in the Azure CLI:
-```
-az acr login --name [registry name]
-```
+Now new secret should be created to provide access to the Container Registry from the AKS cluster.
+
 Create secret using below command:
 ```
 kubectl create secret docker-registry [acr connection name] --docker-server=[acr_name].azurecr.io --docker-username=[from the azure portal] --docker-password=[from the azure portal] --docker-email=docker-email=<<e-mail address>> --namespace [namespace name]
