@@ -296,7 +296,7 @@ ACR_ID=$(az acr show --name $ACR_NAME --resource-group $ACR_RESOURCE_GROUP --que
 az role assignment create --assignee $CLIENT_ID --role acrpull --scope $ACR_ID
 ```
 
-### --- DEPRECIATED SECTION, PLEASE USE ABOVE SOLUTION TO PROVIDE ACCESS FROM AKS TO ACR ---
+### DEPRECIATED SECTION, PLEASE USE ABOVE SOLUTION TO PROVIDE ACCESS FROM AKS TO ACR
 
 6. Open ACR blade in the Microsoft Azure portal. In the Access keys section you will find registry name, username and password.
 
