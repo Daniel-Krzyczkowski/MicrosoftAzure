@@ -275,6 +275,29 @@ helm ls --all dev-island-nginx
   <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker15.png"/>
 </p>
 
+#### UPDATE - IMPORTANT
+Currently the preffered way to provide access from the AKS cluster to the Azure Container Registry is to use Service Principal.
+[Please read more here](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-auth-aks)
+Use the following script to grant the AKS-generated service principal pull access to an Azure container registry:
+
+```
+AKS_RESOURCE_GROUP=[your-aks-cluster-resource-group]
+AKS_CLUSTER_NAME=[your-aks-cluster-name]
+ACR_RESOURCE_GROUP=[your-azure-container-registry-resource-group]
+ACR_NAME=[your-azure-container-registry-name]
+
+# Get the id of the service principal configured for AKS
+CLIENT_ID=$(az aks show --resource-group $AKS_RESOURCE_GROUP --name $AKS_CLUSTER_NAME --query "servicePrincipalProfile.clientId" --output tsv)
+
+# Get the ACR registry resource id
+ACR_ID=$(az acr show --name $ACR_NAME --resource-group $ACR_RESOURCE_GROUP --query "id" --output tsv)
+
+# Create role assignment
+az role assignment create --assignee $CLIENT_ID --role acrpull --scope $ACR_ID
+```
+
+#### DEPRECIATED SECTION, PLEASE USE ABOVE SOLUTION TO PROVIDE ACCESS FROM AKS TO ACR
+
 6. Open ACR blade in the Microsoft Azure portal. In the Access keys section you will find registry name, username and password.
 
 Now new secret should be created to provide access to the Container Registry from the AKS cluster.
@@ -301,6 +324,8 @@ Apply changes with below command:
 ```
 kubectl replace serviceaccount default -f serviceaccount.yaml
 ```
+#### DEPRECIATED SECTION, PLEASE USE ABOVE SOLUTION TO PROVIDE ACCESS FROM AKS TO ACR
+
 6. Apply Ingress configuration in the specific namespace (dev-island in this case):
 ```
 kubectl apply -f ingress.yaml (namespace already included in the file)
