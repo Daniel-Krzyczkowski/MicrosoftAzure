@@ -295,3 +295,18 @@ Now up to 5 requests are available in the 60 minutes. If you try to call 6th tim
 <p align="center">
   <img src="/AzureApiManagament/Assets/ApiM11.PNG"/>
 </p>
+
+
+## Analytics
+
+One of the great features of the Azure API Management is analytics related with usage of specific API - including information about failed requests or number of users. You can review this data using "Analytics" tab:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM21.PNG"/>
+</p>
+
+Swith between different tabs:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM22.PNG"/>
+</p>
