@@ -16,3 +16,10 @@ https://docs.microsoft.com/en-us/azure/api-management/get-started-create-service
 
 ## Overview of APIM in the Azure portal 
 
+Once Azure API Management service is ready you should receive e-mail notification.
+
+You can find it in the Azure Portal:
+
+<p align="center">
+  <img src="AzureApiManagament/images/ApiM0.PNG"/>
+</p>
