@@ -87,6 +87,10 @@ At the beginning I mentioned about "Developer portal URL". We will use it now to
   <img src="/AzureApiManagament/Assets/ApiM1.PNG"/>
 </p>
 
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM12.PNG"/>
+</p>
+
 2. After successful registration got to the "Products" tab and select "Trial":
 
 <p align="center">
