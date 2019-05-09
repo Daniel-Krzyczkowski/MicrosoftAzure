@@ -215,7 +215,7 @@ Once you register you should see the JWT token in the broswer - copy it because 
 </p>
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM18.PNG"/>
+  <img src="/AzureApiManagament/Assets/ApiM18.png"/>
 </p>
 
 2. To configure Azure AD B2C JWT token validation policy it is required to provide two details:
@@ -252,6 +252,13 @@ This is the source code of the policy to apply:
     </on-error>
 </policies>
 ```
+
+3. Now in the Postman try to call below endpoint without providing JWT token obtained from the AD B2C:
+
+https://servless-meetup-apim.azure-api.net/pets/store/inventory
+
+You should see unauthorized reponse. Then try to call with the JTW token again.
+
 
 #### Policy for the Product
 
