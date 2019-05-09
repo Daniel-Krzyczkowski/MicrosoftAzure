@@ -202,7 +202,9 @@ You can test this endpoint using Postman (you can modify the collection I provid
 
 #### Policy for the API
 
-Aaa
+Now we will apply policy for the whole Petstore API. This one is related with JWT token validation from the Azure AD B2C. I created Azure AD B2C test tenant so you can use it during the workshop:
+
+[Sign in/Sign up with AD B2C](https://servlessmeetup.b2clogin.com/servlessmeetup.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_SignUpOrSignIn&client_id=b8b32cdf-bdd9-4902-bf49-47672fc7b0aa&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost&scope=openid&response_type=id_token&prompt=login)
 
 #### Policy for the Product
 
