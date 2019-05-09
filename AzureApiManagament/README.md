@@ -10,3 +10,9 @@
 [Azure API Management - jump start](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AzureApiManagament/AzureApiManagementJumpStart.pdf)
 
 #### Additional information:
+
+###### First, create Azure API Management service:
+https://docs.microsoft.com/en-us/azure/api-management/get-started-create-service-instance
+
+## Overview of APIM in the Azure portal 
+
