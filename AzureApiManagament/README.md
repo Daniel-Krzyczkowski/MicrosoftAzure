@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AksAndDocker4NetDevs/images/aks_docker0.png"/>
+  <img src="AzureApiManagament/images/IntroImage.PNG"/>
 </p>
 &nbsp;
 
