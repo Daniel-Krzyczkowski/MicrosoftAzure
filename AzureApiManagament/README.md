@@ -156,7 +156,49 @@ At the beginning I mentioned about "Developer portal URL". We will use it now to
 
 #### Policy for the single endpoint
 
-Aaa
+First policy will be applied to the single endpoint of our API:
+https://servless-meetup-apim.azure-api.net/pets/pet/findByStatus?status=available
+
+We will enable caching responses for 20 seconds:
+
+1. Select "Find pets by status" endpoint in the "Design" tab and select "Inbound processing":
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM19.PNG"/>
+</p>
+
+2. Modify source code of the policy to look like below (source code of this policy is also included in the "Policies" folder in this repo):
+
+```
+<policies>
+    <inbound>
+        <base />
+        <cache-lookup vary-by-developer="false" vary-by-developer-groups="false" downstream-caching-type="none">
+            <vary-by-header>Accept</vary-by-header>
+            <vary-by-header>Accept-Charset</vary-by-header>
+            <vary-by-header>Authorization</vary-by-header>
+        </cache-lookup>
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+        <cache-store duration="20" />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
+```
+3. Now you should see applied caching policy:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM20.PNG"/>
+</p>
+
+You can test this endpoint using Postman (you can modify the collection I provided in this repo in the "Postman" folder).
+
 
 #### Policy for the API
 
