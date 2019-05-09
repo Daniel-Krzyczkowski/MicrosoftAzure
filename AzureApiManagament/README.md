@@ -87,6 +87,15 @@ Now we can add Petstore API to the Trial Product so it is available for the deve
   <img src="/AzureApiManagament/Assets/ApiM15.PNG"/>
 </p>
 
+2. Go to the "Settings" tab and make sure that the configuration looks like below:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM16.PNG"/>
+</p>
+
+That's it. Now Petstore API is available under Trial subscription.
+
+
 ## Subscribe to the "Trial" product in the developer portal
 
 At the beginning I mentioned about "Developer portal URL". We will use it now to register as developer and get subscription key to acccess Petstore API.
