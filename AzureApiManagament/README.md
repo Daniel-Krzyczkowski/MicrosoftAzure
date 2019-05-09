@@ -92,3 +92,9 @@ At the beginning I mentioned about "Developer portal URL". We will use it now to
 <p align="center">
   <img src="/AzureApiManagament/Assets/ApiM2.PNG"/>
 </p>
+
+3. Click "Add subscription" to get subscription keys:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM3.PNG"/>
+</p>
