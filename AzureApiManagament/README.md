@@ -34,7 +34,7 @@ We will start from the import of sample API.
 
 ## Import Swagger Petstore sample API
 
-We will use sample API called Swagget Petsotre available here: https://petstore.swagger.io/ 
+We will use sample API called Swagget Petsotre available here: https://petstore.swagger.io/ together with swagger definition: https://petstore.swagger.io/v2/swagger.json
 
 1. Click APIs tab:
 
