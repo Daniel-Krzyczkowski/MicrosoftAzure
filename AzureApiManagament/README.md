@@ -29,7 +29,8 @@ Please note that there are two URL addresses on the right side:
 1. Developer portal URL - portal where developers can subscribe to the APIs managed by Azure API Management
 2. Gateway URL - this is just a main address and entry point to all APIs handled by Azure API Management
 
-We will start from the import of sample API: 
+We will start from the import of sample API.
+
 
 ## Import Swagger Petstore sample API
 
@@ -53,11 +54,10 @@ We will use sample API called Swagget Petsotre available here: https://petstore.
 
 3. Provide below details including OpenAPI specification:
 
-
-
 <p align="center">
-  <img src="/AzureApiManagament/images/ApiM8.PNG"/>
+  <img src="/AzureApiManagament/images/ApiM14.PNG"/>
 </p>
+
 
 ## Create new API Management Product
 
