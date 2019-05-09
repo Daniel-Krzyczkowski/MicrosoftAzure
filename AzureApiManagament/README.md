@@ -29,3 +29,9 @@ Please note that there are two URL addresses on the right side:
 1. Developer portal URL - portal where developers can subscribe to the APIs managed by Azure API Management
 2. Gateway URL - this is just a main address and entry point to all APIs handled by Azure API Management
 
+We will start from the adding new Product.
+
+## Create new API Management Product
+
+*APIM product - a product contains one or more APIs as well as a usage quota and the terms of use. You can include a number of APIs and offer them to developers through the Developer portal. For more information, see Create and publish a product.*
+
