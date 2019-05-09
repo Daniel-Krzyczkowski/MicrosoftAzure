@@ -79,4 +79,10 @@ Done! Now our "Trial" Product is published and we can access Petstore API - let'
 
 ## Subscribe to the "Trial" product in the developer portal
 
-Aaa
+At the beginning I mentioned about "Developer portal URL". We will use it now to register as developer and get subscription key to acccess Petstore API.
+
+1. First of you have to sign up using e-mail. Once its verified you should be able to access Developer portal:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM1.PNG"/>
+</p>
