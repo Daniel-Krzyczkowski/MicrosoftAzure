@@ -323,3 +323,6 @@ It is also possible to customize e-mail templates sent from the Azure API Manage
   <img src="/AzureApiManagament/Assets/ApiM24.PNG"/>
 </p>
 
+#### Summary
+
+I tried to show you some nice and interesting features of Azure API Management service. Of course there are more of them. I encourage you to check [official documentation](https://docs.microsoft.com/en-us/azure/api-management/) to learn more.
