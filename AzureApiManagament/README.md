@@ -77,6 +77,16 @@ We will use sample API called Swagget Petsotre available here: https://petstore.
 
 Done! Now our "Trial" Product is published and we can access Petstore API - let's see how to do it below.
 
+## Add Petstore API to the Trial Product
+
+Now we can add Petstore API to the Trial Product so it is available for the developers:
+
+1. Select "Swagger Petstore" API:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM15.PNG"/>
+</p>
+
 ## Subscribe to the "Trial" product in the developer portal
 
 At the beginning I mentioned about "Developer portal URL". We will use it now to register as developer and get subscription key to acccess Petstore API.
