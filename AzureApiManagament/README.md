@@ -23,3 +23,9 @@ You can find it in the Azure Portal:
 <p align="center">
   <img src="/AzureApiManagament/images/ApiM0.PNG"/>
 </p>
+
+Please note that there are two URL addresses on the right side:
+
+1. Developer portal URL - portal where developers can subscribe to the APIs managed by Azure API Management
+2. Gateway URL - this is just a main address and entry point to all APIs handled by Azure API Management
+
