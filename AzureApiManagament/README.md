@@ -262,4 +262,11 @@ You should see unauthorized reponse. Then try to call with the JTW token again.
 
 #### Policy for the Product
 
-Aaa
+Last policy will be applied to the whole "Trial" product. This one will reduce the number of possible requests to the Petstore API in the specific time period - "Quota Limit Policy".
+
+1. To apply this policy go to the "Products" tab, select "Trial" and then "Policies":
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM10.png"/>
+</p>
+
