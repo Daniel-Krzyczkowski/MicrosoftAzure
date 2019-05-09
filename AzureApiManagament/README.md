@@ -206,6 +206,53 @@ Now we will apply policy for the whole Petstore API. This one is related with JW
 
 [Sign in/Sign up with AD B2C](https://servlessmeetup.b2clogin.com/servlessmeetup.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_SignUpOrSignIn&client_id=b8b32cdf-bdd9-4902-bf49-47672fc7b0aa&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost&scope=openid&response_type=id_token&prompt=login)
 
+Once you register you should see the JWT token in the broswer - copy it because we will use it later.
+
+1. Select "Swagger Petstore" API and then select "Inbound processing":
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM15.PNG"/>
+</p>
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM18.PNG"/>
+</p>
+
+2. To configure Azure AD B2C JWT token validation policy it is required to provide two details:
+a. openid-config url
+b. audience
+c. required-claims
+
+This is the source code of the policy to apply:
+
+```
+<policies>
+    <inbound>
+        <base />
+        <validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized. Access token is missing or invalid.">
+            <openid-config url="https://servlessmeetup.b2clogin.com/servlessmeetup.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_SignUpOrSignIn" />
+            <audiences>
+                <audience>b8b32cdf-bdd9-4902-bf49-47672fc7b0aa</audience>
+            </audiences>
+            <required-claims>
+                <claim name="aud" match="all">
+                    <value>b8b32cdf-bdd9-4902-bf49-47672fc7b0aa</value>
+                </claim>
+            </required-claims>
+        </validate-jwt>
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
+```
+
 #### Policy for the Product
 
 Aaa
