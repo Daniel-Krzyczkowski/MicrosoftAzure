@@ -2,11 +2,11 @@
 
 
 <p align="center">
-  <img src="/Images/IntroImage.PNG"/>
+  <img src="/AzureApiManagament/Images/IntroImage.PNG"/>
 </p>
 &nbsp;
 
 #### You can find my introduction to the Azure API Management in this repository:
-[Azure API Management - jump start]](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AzureApiManagament/AKSandDocker4developers.pdf)
+[Azure API Management - jump start](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AzureApiManagament/AzureApiManagementJumpStart.pdf)
 
 #### Additional information:
