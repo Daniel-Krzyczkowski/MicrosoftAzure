@@ -35,3 +35,17 @@ We will start from the adding new Product.
 
 *APIM product - a product contains one or more APIs as well as a usage quota and the terms of use. You can include a number of APIs and offer them to developers through the Developer portal. For more information, see Create and publish a product.*
 
+1. Click "Products" section and click "Add" button:
+
+<p align="center">
+  <img src="/AzureApiManagament/images/ApiM8.PNG"/>
+</p>
+
+2. Provide details for the new Product. In this case we will create Product called "Trial":
+
+<p align="center">
+  <img src="/AzureApiManagament/images/ApiM9.PNG"/>
+</p>
+
+
+
