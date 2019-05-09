@@ -310,3 +310,16 @@ Swith between different tabs:
 <p align="center">
   <img src="/AzureApiManagament/Assets/ApiM22.PNG"/>
 </p>
+
+## Notification templates
+
+It is also possible to customize e-mail templates sent from the Azure API Management - for instance "welcome" messages using "Notification templates" tab:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM23.PNG"/>
+</p>
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM24.PNG"/>
+</p>
+
