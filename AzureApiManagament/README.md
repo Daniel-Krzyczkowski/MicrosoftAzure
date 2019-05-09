@@ -128,3 +128,8 @@ At the beginning I mentioned about "Developer portal URL". We will use it now to
 <p align="center">
   <img src="/AzureApiManagament/Assets/ApiM7.PNG"/>
 </p>
+
+## Apply API Gatway Policies
+
+*In Azure API Management (APIM), policies are a powerful capability of the system that allow the publisher to change the behavior of the API through configuration. Policies are a collection of Statements that are executed sequentially on the request or response of an API.*
+
