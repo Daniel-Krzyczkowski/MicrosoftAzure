@@ -267,6 +267,31 @@ Last policy will be applied to the whole "Trial" product. This one will reduce t
 1. To apply this policy go to the "Products" tab, select "Trial" and then "Policies":
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM10.png"/>
+  <img src="/AzureApiManagament/Assets/ApiM10.PNG"/>
 </p>
 
+2. Paste below policy code:
+
+```
+<policies>
+    <inbound>
+        <base />
+ <quota calls="5" bandwidth="40000" renewal-period="3600" />
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
+```
+
+Now up to 5 requests are available in the 60 minutes. If you try to call 6th time you will be notified that quota limit was exceeded. You will be also notified by e-mail:
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM11.PNG"/>
+</p>
