@@ -104,3 +104,4 @@ You should receive e-mail confirmation. Now you can access Petstore API using on
 <p align="center">
   <img src="/AzureApiManagament/Assets/ApiM26.PNG"/>
 </p>
+
