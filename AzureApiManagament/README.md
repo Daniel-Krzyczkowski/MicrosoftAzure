@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="/AzureApiManagament/images/IntroImage.PNG"/>
+  <img src="/AzureApiManagament/Assets/IntroImage.PNG"/>
 </p>
 &nbsp;
 
@@ -21,7 +21,7 @@ Once Azure API Management service is ready you should receive e-mail notificatio
 You can find it in the Azure Portal:
 
 <p align="center">
-  <img src="/AzureApiManagament/images/ApiM0.PNG"/>
+  <img src="/AzureApiManagament/Assets/ApiM0.PNG"/>
 </p>
 
 Please note that there are two URL addresses on the right side:
@@ -39,23 +39,23 @@ We will use sample API called Swagget Petsotre available here: https://petstore.
 1. Click APIs tab:
 
 <p align="center">
-  <img src="/AzureApiManagament/images/ApiM25.PNG"/>
+  <img src="/AzureApiManagament/Assets/ApiM25.PNG"/>
 </p>
 
 2. Select "OpenAPI":
 
 <p align="center">
-  <img src="/AzureApiManagament/images/ApiM13.PNG"/>
+  <img src="/AzureApiManagament/Assets/ApiM13.PNG"/>
 </p>
 
 <p align="center">
-  <img src="/AzureApiManagament/images/ApiM14.PNG"/>
+  <img src="/AzureApiManagament/Assets/ApiM14.PNG"/>
 </p>
 
 3. Provide below details including OpenAPI specification:
 
 <p align="center">
-  <img src="/AzureApiManagament/images/ApiM14.PNG"/>
+  <img src="/AzureApiManagament/Assets/ApiM14.PNG"/>
 </p>
 
 
@@ -66,13 +66,13 @@ We will use sample API called Swagget Petsotre available here: https://petstore.
 1. Click "Products" section and click "Add" button:
 
 <p align="center">
-  <img src="/AzureApiManagament/images/ApiM8.PNG"/>
+  <img src="/AzureApiManagament/Assets/ApiM8.PNG"/>
 </p>
 
 2. Provide details for the new Product. In this case we will create Product called "Trial":
 
 <p align="center">
-  <img src="/AzureApiManagament/images/ApiM9.PNG"/>
+  <img src="/AzureApiManagament/Assets/ApiM9.PNG"/>
 </p>
 
 
