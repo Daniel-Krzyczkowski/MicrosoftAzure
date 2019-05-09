@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="/AzureApiManagament/Images/IntroImage.PNG"/>
+  <img src="/AzureApiManagament/images/IntroImage.PNG"/>
 </p>
 &nbsp;
 
