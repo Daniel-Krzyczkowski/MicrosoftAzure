@@ -99,9 +99,17 @@ At the beginning I mentioned about "Developer portal URL". We will use it now to
   <img src="/AzureApiManagament/Assets/ApiM3.PNG"/>
 </p>
 
-You should receive e-mail confirmation. Now you can access Petstore API using one of the assigned subscription keys:
+4. You should receive e-mail confirmation. Now you can access Petstore API using one of the assigned subscription keys:
 
 <p align="center">
   <img src="/AzureApiManagament/Assets/ApiM26.PNG"/>
 </p>
+
+5. Open "Swagger Petstore" API and click "Try it":
+
+<p align="center">
+  <img src="/AzureApiManagament/Assets/ApiM4.PNG"/>
+</p>
+
+
 
