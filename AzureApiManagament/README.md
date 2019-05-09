@@ -21,5 +21,5 @@ Once Azure API Management service is ready you should receive e-mail notificatio
 You can find it in the Azure Portal:
 
 <p align="center">
-  <img src="/images/ApiM0.PNG"/>
+  <img src="/AzureApiManagament/images/ApiM0.PNG"/>
 </p>
