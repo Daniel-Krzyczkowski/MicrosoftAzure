@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "067f077c-847a-4999-a613-69e2054a8441",
+		"name": "ServlessMeetup-APIM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Returns pet inventories by status",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1NTczODc2NzksIm5iZiI6MTU1NzM4NDA3OSwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9zZXJ2bGVzc21lZXR1cC5iMmNsb2dpbi5jb20vOTFjNjFjZjEtMWFkZS00N2I4LTk2OTItNGE2NGU3NTU4Yzc3L3YyLjAvIiwic3ViIjoiN2ExZmE1NDItNmU0Mi00OGI1LWI3YTEtNzJhMTRhNzJkYmVlIiwiYXVkIjoiYjhiMzJjZGYtYmRkOS00OTAyLWJmNDktNDc2NzJmYzdiMGFhIiwibm9uY2UiOiJkZWZhdWx0Tm9uY2UiLCJpYXQiOjE1NTczODQwNzksImF1dGhfdGltZSI6MTU1NzM4NDA3OSwidGZwIjoiQjJDXzFfU2lnblVwT3JTaWduSW4ifQ.AGbvKAMicrqinGd1fJAYABLbOQ8IXGV3LRDzig0TYLUM2tD5qDIzWoiwLxWrN46gwD68HPEINEPAJd971chUKC6f65ijnrpKe120r59cZbW_On9XKf8NdYF9__JtQXJPggFbKkSP1ko0YXi-mAA-7leBm4z3YwaC4lM8735w1G_mZybKMxaywpF1xroojSNi-CG7Hkmfsl39IyUnQdwn7w4M2OSDuXnMe_u9Piu5Tq2xbJhqXbjiplwFiU-O0KJdOnGf1c_rg_floc6srJl0UqftmfpgDfWSzEiN7eKkybIzZBXotRy18O3RW1tBdo_z7A2qxZOvdiwpVSPfg3OsJg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "992f82359a0c450eade4dba175b82c92",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://servless-meetup-apim.azure-api.net/pets/store/inventory",
+					"protocol": "https",
+					"host": [
+						"servless-meetup-apim",
+						"azure-api",
+						"net"
+					],
+					"path": [
+						"pets",
+						"store",
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get pet by status",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1NTczOTMwMTEsIm5iZiI6MTU1NzM4OTQxMSwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9zZXJ2bGVzc21lZXR1cC5iMmNsb2dpbi5jb20vOTFjNjFjZjEtMWFkZS00N2I4LTk2OTItNGE2NGU3NTU4Yzc3L3YyLjAvIiwic3ViIjoiN2ExZmE1NDItNmU0Mi00OGI1LWI3YTEtNzJhMTRhNzJkYmVlIiwiYXVkIjoiYjhiMzJjZGYtYmRkOS00OTAyLWJmNDktNDc2NzJmYzdiMGFhIiwibm9uY2UiOiJkZWZhdWx0Tm9uY2UiLCJpYXQiOjE1NTczODk0MTEsImF1dGhfdGltZSI6MTU1NzM4OTQxMSwidGZwIjoiQjJDXzFfU2lnblVwT3JTaWduSW4ifQ.UsZV19rYj_88f_zKobavWLKKfbWcgPUDwIDRxa6QuRN68_f3W5TbJ0awkp2yzz2CLR-eTCfHehOVttA4a1SFQI11gpR4kQ50L09_un-D58ujW_O_rd056k8rQOjBYd-0LXDTWHN6dOP2FbVQXwUBjjKDsSFYo-KKT7a_qfQvaHXr8H85WaWbSYSb1Kydope07HEMsaHn5RSA_Msg4IcQI-ekRnRH_dLl1c163mCbWA8uNRcQ-ofiuLfiQWpceSy32Lza060qPV_c-FRcdbaQ11yHDB70JS_rO_QlFAyBXacM8EdkJCKMp_IHiQ7u7Ogy31U5HvbNlLM6Nhl-JPmWMw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "992f82359a0c450eade4dba175b82c92",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://servless-meetup-apim.azure-api.net/pets/pet/findByStatus?status=available ",
+					"protocol": "https",
+					"host": [
+						"servless-meetup-apim",
+						"azure-api",
+						"net"
+					],
+					"path": [
+						"pets",
+						"pet",
+						"findByStatus"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "available "
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
