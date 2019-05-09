@@ -69,11 +69,14 @@ We will use sample API called Swagget Petsotre available here: https://petstore.
   <img src="/AzureApiManagament/Assets/ApiM8.PNG"/>
 </p>
 
-2. Provide details for the new Product. In this case we will create Product called "Trial":
+2. Provide details for the new Product. In this case we will create Product called "Trial". Under this Product our Petstore API will be available so include it in the "APIs" section:
 
 <p align="center">
   <img src="/AzureApiManagament/Assets/ApiM9.PNG"/>
 </p>
 
+Done! Now our "Trial" Product is published and we can access Petstore API - let's see how to do it below.
 
+## Subscribe to the "Trial" product in the developer portal
 
+Aaa
