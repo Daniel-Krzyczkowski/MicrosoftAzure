@@ -7,6 +7,7 @@ using System.Text;
 using System.Net.Http;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
+using System;
 
 namespace ServerlessIoT.FunctionApps
 {
@@ -14,14 +15,15 @@ namespace ServerlessIoT.FunctionApps
     {
         private static HttpClient client = new HttpClient();
 
-        [FunctionName("DeviceDataTrigger")]
+        [FunctionName("device-data-trigger")]
         public static async Task Run([IoTHubTrigger("messages/events", Connection = "IoTHubConnectionString")]EventData message, ILogger log)
         {
             var messageBody = Encoding.UTF8.GetString(message.Body.Array);
             log.LogInformation($"C# IoT Hub trigger function processed a message: {messageBody}");
 
             HttpContent messageContent = new StringContent(messageBody, Encoding.UTF8, "application/json");
-            await client.PostAsync("http://localhost:7071/api/messages", messageContent);
+            var broadcastFunctionUrl = Environment.GetEnvironmentVariable("DeviceDataTriggerFunctionUrl", EnvironmentVariableTarget.Process);
+            await client.PostAsync(broadcastFunctionUrl, messageContent);
         }
     }
 }

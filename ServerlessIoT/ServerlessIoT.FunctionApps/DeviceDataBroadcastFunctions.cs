@@ -11,11 +11,11 @@ using Microsoft.Azure.WebJobs.Extensions.SignalRService;
 
 namespace ServerlessIoT.FunctionApps
 {
-    public static class DeviceDataBroadcastFunction
+    public static class DeviceDataBroadcastFunctions
     {
         [FunctionName("negotiate")]
         public static SignalRConnectionInfo GetSignalRInfo(
-           [HttpTrigger(AuthorizationLevel.Anonymous, "post")] HttpRequest req,
+           [HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequest req,
            [SignalRConnectionInfo(HubName = "devicedata")] SignalRConnectionInfo connectionInfo)
         {
             return connectionInfo;
