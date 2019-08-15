@@ -15,7 +15,7 @@ namespace ServerlessIoT.FunctionApps
     {
         [FunctionName("negotiate")]
         public static SignalRConnectionInfo GetSignalRInfo(
-           [HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequest req,
+           [HttpTrigger(AuthorizationLevel.Anonymous, "post")] HttpRequest req,
            [SignalRConnectionInfo(HubName = "devicedata")] SignalRConnectionInfo connectionInfo)
         {
             return connectionInfo;
