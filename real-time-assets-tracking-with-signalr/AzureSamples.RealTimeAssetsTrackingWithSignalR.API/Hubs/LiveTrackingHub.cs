@@ -9,7 +9,8 @@ namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.API.Hubs
         /// Handle location update message and broadcast it to all connected clients.
         /// </summary>
         /// <param name="locationUpdate"></param>
-        public void BroadcastMessage(LocationUpdate locationUpdate)
+        [HubMethodName("location-update")]
+        public void LocationUpdate(LocationUpdate locationUpdate)
         {
             Clients.All.SendAsync("location-update", locationUpdate);
         }

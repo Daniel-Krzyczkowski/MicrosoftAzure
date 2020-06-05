@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.Simulator.Model
+﻿namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.Simulator.Model
 {
     class LocationUpdate
     {
-        public string DriverName;
-        public double Latitude;
-        public double Longitude;
+        public string DriverName { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
     }
 }

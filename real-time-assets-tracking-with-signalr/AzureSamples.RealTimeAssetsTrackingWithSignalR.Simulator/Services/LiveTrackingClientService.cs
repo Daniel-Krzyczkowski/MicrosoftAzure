@@ -1,8 +1,6 @@
 ﻿using AzureSamples.RealTimeAssetsTrackingWithSignalR.Simulator.Model;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.Simulator.Services
