@@ -1,4 +1,5 @@
-﻿using AzureSamples.RealTimeAssetsTrackingWithSignalR.API.Model;
+﻿using System.Threading.Tasks;
+using AzureSamples.RealTimeAssetsTrackingWithSignalR.API.Model;
 using Microsoft.AspNetCore.SignalR;
 
 namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.API.Hubs
@@ -10,9 +11,9 @@ namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.API.Hubs
         /// </summary>
         /// <param name="locationUpdate"></param>
         [HubMethodName("location-update")]
-        public void LocationUpdate(LocationUpdate locationUpdate)
+        public Task LocationUpdate(LocationUpdate locationUpdate)
         {
-            Clients.All.SendAsync("location-update", locationUpdate);
+            return Clients.All.SendAsync("location-update", locationUpdate);
         }
     }
 }
