@@ -1,13 +1,9 @@
-﻿using AzureSignalRTransportApp.WebAPI.Model;
+﻿using AzureSamples.RealTimeAssetsTrackingWithSignalR.API.Model;
 using Microsoft.AspNetCore.SignalR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace AzureSignalRTransportApp.WebAPI.Hubs
+namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.API.Hubs
 {
-    public class TransportHub : Hub
+    public class LiveTrackingHub : Hub
     {
         /// <summary>
         /// Handle location update message and broadcast it to all connected clients.
@@ -15,7 +11,7 @@ namespace AzureSignalRTransportApp.WebAPI.Hubs
         /// <param name="locationUpdate"></param>
         public void BroadcastMessage(LocationUpdate locationUpdate)
         {
-            Clients.All.SendAsync("broadcastMessage", locationUpdate);
+            Clients.All.SendAsync("location-update", locationUpdate);
         }
     }
 }

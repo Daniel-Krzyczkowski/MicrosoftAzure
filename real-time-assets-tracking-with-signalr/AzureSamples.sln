@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSamples.RealTimeAssetsTrackingWithSignalR.API", "AzureSamples.RealTimeAssetsTrackingWithSignalR.API\AzureSamples.RealTimeAssetsTrackingWithSignalR.API.csproj", "{0044A7C2-79A6-40D5-9973-95E1EC8AAD6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSamples.RealTimeAssetsTrackingWithSignalR.Simulator", "AzureSamples.RealTimeAssetsTrackingWithSignalR.Simulator\AzureSamples.RealTimeAssetsTrackingWithSignalR.Simulator.csproj", "{EA006CD1-026C-4256-BF8F-86C125C04A6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0044A7C2-79A6-40D5-9973-95E1EC8AAD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0044A7C2-79A6-40D5-9973-95E1EC8AAD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0044A7C2-79A6-40D5-9973-95E1EC8AAD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0044A7C2-79A6-40D5-9973-95E1EC8AAD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA006CD1-026C-4256-BF8F-86C125C04A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA006CD1-026C-4256-BF8F-86C125C04A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA006CD1-026C-4256-BF8F-86C125C04A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA006CD1-026C-4256-BF8F-86C125C04A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD177891-26A0-4921-BC72-C1DAEE196216}
+	EndGlobalSection
+EndGlobal

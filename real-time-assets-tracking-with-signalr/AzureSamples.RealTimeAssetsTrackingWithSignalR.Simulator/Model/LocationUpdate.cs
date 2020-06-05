@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
-namespace AzureSignalRTransportApp.WebAPI.Model
+namespace AzureSamples.RealTimeAssetsTrackingWithSignalR.Simulator.Model
 {
-    public class LocationUpdate
+    class LocationUpdate
     {
         public string DriverName;
         public double Latitude;
