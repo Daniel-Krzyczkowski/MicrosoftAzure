@@ -1,4 +1,4 @@
-# Azure
-This repository contains samples related with Microsoft Azure cloud.
+![azure-ai-repo.gif](images/azure-repo.gif)
 
-![azure-ai-repo.png](images/azure-repo.PNG)
+## This repository contains samples related to Microsoft Azure cloud.
+
