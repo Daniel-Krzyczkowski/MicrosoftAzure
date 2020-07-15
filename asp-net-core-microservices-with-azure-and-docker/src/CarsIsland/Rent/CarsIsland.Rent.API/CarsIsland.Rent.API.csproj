@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>b3f0591e-76e4-4ee8-a633-3f2fb7f8e3a7</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\IntegrationEvents\EventHandlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\CarsIsland.EventBus\CarsIsland.EventBus.csproj" />
+    <ProjectReference Include="..\..\BuildingBlocks\CarsIsland.EventLog\CarsIsland.EventLog.csproj" />
+    <ProjectReference Include="..\CarsIsland.Rent.Domain\CarsIsland.Rent.Domain.csproj" />
+    <ProjectReference Include="..\CarsIsland.Rent.Infrastructure\CarsIsland.Rent.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>

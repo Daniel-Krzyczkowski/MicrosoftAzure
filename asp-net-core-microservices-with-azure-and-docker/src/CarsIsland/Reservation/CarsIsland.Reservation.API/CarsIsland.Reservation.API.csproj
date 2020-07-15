@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>914e411f-e7c8-49af-ba2a-a03783513aad</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarsIsland.Reservation.Domain\CarsIsland.Reservation.Domain.csproj" />
+    <ProjectReference Include="..\CarsIsland.Reservation.Infrastructure\CarsIsland.Reservation.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>

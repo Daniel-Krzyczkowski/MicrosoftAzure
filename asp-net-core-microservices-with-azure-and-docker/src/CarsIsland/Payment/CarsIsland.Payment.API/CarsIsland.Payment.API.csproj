@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>e94e8ad7-4f07-498a-81ae-95e9b4767ad2</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Stripe.net" Version="37.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarsIsland.Payment.Domain\CarsIsland.Payment.Domain.csproj" />
+    <ProjectReference Include="..\CarsIsland.Payment.Infrastructure\CarsIsland.Payment.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

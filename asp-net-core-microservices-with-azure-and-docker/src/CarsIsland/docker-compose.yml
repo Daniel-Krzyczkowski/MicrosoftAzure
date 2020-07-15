@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  carsisland.catalog.api:
+    image: ${DOCKER_REGISTRY-}carsislandcatalogapi
+    build:
+      context: .
+      dockerfile: Catalog/CarsIsland.Catalog.API/Dockerfile
+  carsisland.payment.api:
+    image: ${DOCKER_REGISTRY-}carsislandpaymentapi
+    build:
+      context: .
+      dockerfile: Catalog/CarsIsland.Payment.API/Dockerfile
+  carsisland.rent.api:
+    image: ${DOCKER_REGISTRY-}carsislandrentapi
+    build:
+      context: .
+      dockerfile: Catalog/CarsIsland.Rent.API/Dockerfile
+  carsisland.reservation.api:
+    image: ${DOCKER_REGISTRY-}carsislandreservationtapi
+    build:
+      context: .
+      dockerfile: Catalog/CarsIsland.Reservation.API/Dockerfile
