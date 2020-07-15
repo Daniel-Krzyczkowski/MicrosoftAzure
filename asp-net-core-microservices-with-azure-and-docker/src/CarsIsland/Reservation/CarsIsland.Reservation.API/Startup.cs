@@ -24,6 +24,7 @@ namespace CarsIsland.Reservation.API
             services.AddAppConfiguration(Configuration);
             services.AddRedis();
             services.AddIntegrationServices();
+            services.AddSwagger();
             services.AddControllers();
         }
 
@@ -34,6 +35,8 @@ namespace CarsIsland.Reservation.API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwaggerServices();
 
             app.UseHttpsRedirection();
 
