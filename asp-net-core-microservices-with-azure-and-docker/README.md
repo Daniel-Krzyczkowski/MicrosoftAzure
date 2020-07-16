@@ -16,7 +16,7 @@
 To demonstrate how to use Azure Service Bus to provide asynchronous communication between microservices I decided to start the development of a sample solution called Cars Island. Source code is available on [my GitHub.](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/tree/master/asp-net-core-microservices-with-azure-and-docker). This project is based on the [eShop on containers solution](https://github.com/dotnet-architecture/eShopOnContainers) which I found a bit heavy so that is why I decided to create my solution. In the Cars Island solution there are four microservices:
 
 <p align="center">
-<img src="/assets/MicroservicesAzureServiceBusCommunication2.png?raw=true" alt="Image not found"/>
+<img src="/assets/arch-diagram.png?raw=true" alt="Image not found"/>
 </p>
 
 In this section, we are going to talk about communication between *Catalog* microservice and *Reservation* microservice. Just to remind - we would like to use Azure Service Bus to inform other services that specific events happened. In this case, we will talk about changing the price per day for renting the car. Once the price per day is changed in the *Catalog* microservice, we would like to inform *Reservation* microservice about it.
