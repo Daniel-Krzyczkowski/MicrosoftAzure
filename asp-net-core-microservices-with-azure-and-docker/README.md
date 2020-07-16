@@ -15,7 +15,7 @@ Cars Island is a fake car rental company which used service oriented architectur
 
 ## Solution architecture
 
-To demonstrate how to use Azure Service Bus to provide asynchronous communication between microservices I decided to start the development of a sample solution called Cars Island. Source code is available on [my GitHub.](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/tree/master/asp-net-core-microservices-with-azure-and-docker). This project is based on the [eShop on containers solution](https://github.com/dotnet-architecture/eShopOnContainers) which I found a bit heavy so that is why I decided to create my solution. In the Cars Island solution there are four microservices:
+To demonstrate how to use Azure Service Bus to provide asynchronous communication between microservices I decided to start the development of a sample solution called Cars Island. This project is based on the [eShop on containers solution](https://github.com/dotnet-architecture/eShopOnContainers) which I found a bit heavy so that is why I decided to create my solution. In the Cars Island solution there are four microservices:
 
 <p align="center">
 <img src="assets/arch-diagram.png?raw=true" alt="Image not found"/>
