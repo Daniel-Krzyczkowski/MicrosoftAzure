@@ -2,7 +2,7 @@
  
  *This repository contains sample microservices solution build with ASP .NET Core and Azure cloud services*
 
-![arch-diagram.png](assets/arch-diagram.png)
+![main-repository-image.jpg](assets/main-repository-image.jpg)
 
 ## Below main chapters are covered (will be extended in the future):
 
