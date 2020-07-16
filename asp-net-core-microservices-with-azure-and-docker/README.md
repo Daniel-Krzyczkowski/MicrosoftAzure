@@ -4,6 +4,8 @@
 
 ![main-repository-image.jpg](assets/main-repository-image.jpg)
 
+Cars Island is a fake car rental company which used service oriented architecture to implement the system.
+
 ## Below main chapters are covered (will be extended in the future):
 
 #### [1. Asynchronous Messaging with Azure Service Bus](#asynchronous-messaging-with-azure-service-bus)
