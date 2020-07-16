@@ -16,7 +16,7 @@
 To demonstrate how to use Azure Service Bus to provide asynchronous communication between microservices I decided to start the development of a sample solution called Cars Island. Source code is available on [my GitHub.](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/tree/master/asp-net-core-microservices-with-azure-and-docker). This project is based on the [eShop on containers solution](https://github.com/dotnet-architecture/eShopOnContainers) which I found a bit heavy so that is why I decided to create my solution. In the Cars Island solution there are four microservices:
 
 <p align="center">
-<img src="/assets/arch-diagram.png?raw=true" alt="Image not found"/>
+<img src="assets/arch-diagram.png?raw=true" alt="Image not found"/>
 </p>
 
 In this section, we are going to talk about communication between *Catalog* microservice and *Reservation* microservice. Just to remind - we would like to use Azure Service Bus to inform other services that specific events happened. In this case, we will talk about changing the price per day for renting the car. Once the price per day is changed in the *Catalog* microservice, we would like to inform *Reservation* microservice about it.
@@ -566,7 +566,7 @@ There can be confusion related to how properly register topics and subscriptions
 There is one topic for the whole solution. It is called *cars-island-events*:
 
 <p align="center">
-<img src="/assets/MicroservicesAzureServiceBusCommunication3.PNG?raw=true" alt="Image not found"/>
+<img src="assets/MicroservicesAzureServiceBusCommunication3.PNG?raw=true" alt="Image not found"/>
 </p>
 
 ### Subscriptions
@@ -574,7 +574,7 @@ There is one topic for the whole solution. It is called *cars-island-events*:
 There is one subscription per each microservice so for this example there is *Catalog* and *Reservation* subscription:
 
 <p align="center">
-<img src="/assets/MicroservicesAzureServiceBusCommunication4.PNG?raw=true" alt="Image not found"/>
+<img src="assets/MicroservicesAzureServiceBusCommunication4.PNG?raw=true" alt="Image not found"/>
 </p>
 
 Please note that we filter events using [rules and labels](https://docs.microsoft.com/en-us/azure/service-bus-messaging/topic-filters) in the Azure Service Bus messages.
