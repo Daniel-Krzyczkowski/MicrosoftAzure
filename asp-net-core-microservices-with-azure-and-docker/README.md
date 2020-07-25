@@ -590,7 +590,7 @@ Please note that we filter events using [rules and labels](https://docs.microsof
 To demonstrate how to use Azure SQL database together with Entity Framework Core ORM to implement Event Sourcing I decided to start the development of a sample solution called Cars Island. Source code is available on my GitHub.. This project is based on the eShop on containers solution which I found a bit heavy so that is why I decided to create my solution. In the Cars Island solution there are four microservices but we will focus on the *Catalog* microservice and event related to changing car price per day for specific car from the catalog:
 
 <p align="center">
-<img src="/images/devisland/article38/assets/EventSourcingWithEfCoreAndAzureSql2.png?raw=true" alt="Image not found"/>
+<img src="assets/EventSourcingWithEfCoreAndAzureSql2.png?raw=true" alt="Image not found"/>
 </p>
 
 ## Event Log implementation
@@ -712,7 +712,7 @@ The question is how events are stored and where? Just a short reminded - each mi
 2. IntegrationEventLog
 
 <p align="center">
-<img src="/images/devisland/article38/assets/EventSourcingWithEfCoreAndAzureSql3.PNG?raw=true" alt="Image not found"/>
+<img src="assets/EventSourcingWithEfCoreAndAzureSql3.PNG?raw=true" alt="Image not found"/>
 </p>
 
 In the source code there are two separate *DbContext* instances used, one is *CarCatalogDbContext* used to manage cars data and second, for events is *EventLogContext*:
@@ -822,7 +822,7 @@ Now once we know that *CatalogIntegrationEventService* class is responsible for 
 This is the cars table in the database with existing cars:
 
 <p align="center">
-<img src="/images/devisland/article38/assets/EventSourcingWithEfCoreAndAzureSql4.PNG?raw=true" alt="Image not found"/>
+<img src="assets/EventSourcingWithEfCoreAndAzureSql4.PNG?raw=true" alt="Image not found"/>
 </p>
 
 
@@ -890,7 +890,7 @@ Then we are creating *CarPricePerDayChangedIntegrationEvent* instance with infor
 Then we are ready to call integration service using *await _catalogIntegrationEventService.AddAndSaveEventAsync(pricePerDayChangedEvent)* code. Once data is saved in the database we can look at it using data explorer:
 
 <p align="center">
-<img src="/images/devisland/article38/assets/EventSourcingWithEfCoreAndAzureSql5.PNG?raw=true" alt="Image not found"/>
+<img src="assets/EventSourcingWithEfCoreAndAzureSql5.PNG?raw=true" alt="Image not found"/>
 </p>
 
 Here is the value stored under the *Content* column:
