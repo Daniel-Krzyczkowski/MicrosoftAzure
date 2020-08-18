@@ -1,5 +1,5 @@
 ﻿<p align="center">
-<img src="/assets/CosmosChangeFeedEventSourcing3.png?raw=true" alt="Image not found"/>
+<img src="assets/CosmosChangeFeedEventSourcing3.png?raw=true" alt="Image not found"/>
 </p>
 
 # Azure Function with Cosmos DB trigger
@@ -13,7 +13,7 @@ When talking about Azure Cosmos DB change feed, it is worth to mention that ther
 In this article we are going to use third possible option. To do it, let's create new Azure Function project in the Visual Studio:
 
 <p align="center">
-<img src="/assets/CosmosChangeFeedEventSourcing2.PNG?raw=true" alt="Image not found"/>
+<img src="assets/CosmosChangeFeedEventSourcing2.PNG?raw=true" alt="Image not found"/>
 </p>
 
 Once we create Azure Function with a change feed trigger we have to specify from which container we would like to receive notifications.
@@ -23,7 +23,7 @@ Once we create Azure Function with a change feed trigger we have to specify from
 In this article we will work with some containers I created. These are:
 
 <p align="center">
-<img src="/assets/CosmosChangeFeedEventSourcing4.png?raw=true" alt="Image not found"/>
+<img src="assets/CosmosChangeFeedEventSourcing4.png?raw=true" alt="Image not found"/>
 </p>
 
 We are going to focus on changes in the *Customer* and *Order container*. We are going to use two Azure Functions with change feed triggers:
