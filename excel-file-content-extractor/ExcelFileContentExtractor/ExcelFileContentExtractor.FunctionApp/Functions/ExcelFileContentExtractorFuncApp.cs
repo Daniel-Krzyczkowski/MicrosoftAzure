@@ -1,3 +1,4 @@
+using ExcelFileContentExtractor.Core.Model;
 using ExcelFileContentExtractor.Infrastructure.Enums;
 using ExcelFileContentExtractor.Infrastructure.Services.Interfaces;
 using Microsoft.Azure.WebJobs;
@@ -12,12 +13,15 @@ namespace ExcelFileContentExtractor.FunctionApp
     {
         private readonly IFileExtensionValidationService _fileExtensionValidationService;
         private readonly IExcelFileContentExtractorService _excelFileContentExtractorService;
+        private readonly IDataService<ExcelFileRawDataModel> _dataService;
 
         public ExcelFileContentExtractorFuncApp(IFileExtensionValidationService fileExtensionValidationService,
-                                                IExcelFileContentExtractorService excelFileContentExtractorService)
+                                                IExcelFileContentExtractorService excelFileContentExtractorService,
+                                                IDataService<ExcelFileRawDataModel> dataService)
         {
             _fileExtensionValidationService = fileExtensionValidationService;
             _excelFileContentExtractorService = excelFileContentExtractorService;
+            _dataService = dataService;
         }
 
         [FunctionName("excel-file-content-extractor-func-app")]
@@ -29,6 +33,10 @@ namespace ExcelFileContentExtractor.FunctionApp
             if (isValidFileExtension)
             {
                 var excelFileContent = _excelFileContentExtractorService.GetFileContent(excelFile);
+                if (excelFileContent != null)
+                {
+                    await _dataService.AddAsync(excelFileContent);
+                }
             }
 
             else

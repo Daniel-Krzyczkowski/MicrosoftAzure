@@ -35,7 +35,14 @@ namespace ExcelFileContentExtractor.Infrastructure.Services
                 }
             }
 
-            return new ExcelFileRawDataModel();
+            return new ExcelFileRawDataModel()
+            {
+                Id = cellValues["A6"],
+                CarBrand = cellValues["B6"],
+                CarModel = cellValues["C6"],
+                CarPrice = decimal.Parse(cellValues["D6"]),
+                CarAvailability = int.Parse(cellValues["E6"])
+            };
         }
     }
 }

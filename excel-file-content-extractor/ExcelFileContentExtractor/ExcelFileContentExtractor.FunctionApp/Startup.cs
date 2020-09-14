@@ -1,4 +1,7 @@
-﻿using ExcelFileContentExtractor.Infrastructure.Configuration;
+﻿using Azure.Cosmos;
+using Azure.Cosmos.Serialization;
+using ExcelFileContentExtractor.Core.Model;
+using ExcelFileContentExtractor.Infrastructure.Configuration;
 using ExcelFileContentExtractor.Infrastructure.Configuration.Interfaces;
 using ExcelFileContentExtractor.Infrastructure.Services;
 using ExcelFileContentExtractor.Infrastructure.Services.Interfaces;
@@ -16,8 +19,30 @@ namespace ExcelFileContentExtractor.FunctionApp
         public override void Configure(IFunctionsHostBuilder builder)
         {
             ConfigureSettings(builder);
+
+            var serviceProvider = builder.Services.BuildServiceProvider();
+            var cosmosDbSettings = serviceProvider.GetRequiredService<ICosmosDbDataServiceConfiguration>();
+            CosmosClientOptions cosmosClientOptions = new CosmosClientOptions
+            {
+                SerializerOptions = new CosmosSerializationOptions()
+                {
+                    PropertyNamingPolicy = CosmosPropertyNamingPolicy.CamelCase
+                }
+            };
+            CosmosClient cosmosClient = new CosmosClient(cosmosDbSettings.ConnectionString, cosmosClientOptions);
+            CosmosDatabase database = cosmosClient.CreateDatabaseIfNotExistsAsync(cosmosDbSettings.DatabaseName)
+                                                   .GetAwaiter()
+                                                   .GetResult();
+            CosmosContainer container = database.CreateContainerIfNotExistsAsync(
+                cosmosDbSettings.ContainerName,
+                cosmosDbSettings.PartitionKeyPath,
+                400)
+                .GetAwaiter()
+                .GetResult();
+
+            builder.Services.AddSingleton(cosmosClient);
             builder.Services.AddSingleton<IFileExtensionValidationService, FileExtensionValidationService>();
-            builder.Services.AddSingleton<IDataService, DataService>();
+            builder.Services.AddSingleton(typeof(IDataService<ExcelFileRawDataModel>), typeof(CosmosDbDataService<ExcelFileRawDataModel>));
             builder.Services.AddTransient<IExcelFileContentExtractorService, ExcelFileContentExtractorService>();
         }
 
@@ -31,8 +56,8 @@ namespace ExcelFileContentExtractor.FunctionApp
 
             builder.Services.Configure<CosmosDbDataServiceConfiguration>(config.GetSection("AzureCosmosDbSettings"));
             builder.Services.AddSingleton<IValidateOptions<CosmosDbDataServiceConfiguration>, CosmosDbDataServiceConfigurationValidation>();
-            var sqlDbDataServiceConfiguration = builder.Services.BuildServiceProvider().GetRequiredService<IOptions<CosmosDbDataServiceConfiguration>>().Value;
-            builder.Services.AddSingleton<ICosmosDbDataServiceConfiguration>(sqlDbDataServiceConfiguration);
+            var cosmosDbDataServiceConfiguration = builder.Services.BuildServiceProvider().GetRequiredService<IOptions<CosmosDbDataServiceConfiguration>>().Value;
+            builder.Services.AddSingleton<ICosmosDbDataServiceConfiguration>(cosmosDbDataServiceConfiguration);
         }
     }
 }
