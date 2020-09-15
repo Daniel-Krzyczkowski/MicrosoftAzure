@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelFileContentExtractor.FunctionApp", "ExcelFileContentExtractor.FunctionApp\ExcelFileContentExtractor.FunctionApp.csproj", "{F5035342-FC44-4D7E-91A5-C3DE3783495D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelFileContentExtractor.Infrastructure", "ExcelFileContentExtractor.Infrastructure\ExcelFileContentExtractor.Infrastructure.csproj", "{EFBF5AD1-6BBA-4BEF-A961-8BF83CEE8EE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelFileContentExtractor.Core", "ExcelFileContentExtractor.Core\ExcelFileContentExtractor.Core.csproj", "{A48AFDF6-BEED-4A72-99DB-A243140214C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5035342-FC44-4D7E-91A5-C3DE3783495D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5035342-FC44-4D7E-91A5-C3DE3783495D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5035342-FC44-4D7E-91A5-C3DE3783495D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5035342-FC44-4D7E-91A5-C3DE3783495D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBF5AD1-6BBA-4BEF-A961-8BF83CEE8EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBF5AD1-6BBA-4BEF-A961-8BF83CEE8EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBF5AD1-6BBA-4BEF-A961-8BF83CEE8EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBF5AD1-6BBA-4BEF-A961-8BF83CEE8EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48AFDF6-BEED-4A72-99DB-A243140214C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48AFDF6-BEED-4A72-99DB-A243140214C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48AFDF6-BEED-4A72-99DB-A243140214C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48AFDF6-BEED-4A72-99DB-A243140214C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D96B9A2-F5E8-4B1A-8959-58FA5FFD6F71}
+	EndGlobalSection
+EndGlobal
