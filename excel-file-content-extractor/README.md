@@ -4,7 +4,7 @@
 
 # Introduction
 
-Extracting file content in Azure sounds like an easy topic. Let's talk about specific scenario - extracting content from the Excel files. If email is received with Excel file as attachment, we would like to get this content and process it. How to do it? Especially when there is a need to support older file format (xls) and new one (xlsx)? In this article we will go through the implementaton of solution responsible for automated extraction of the contnet from Excel files using Azure Logic Apps and Azure Function Apps. At the end we are goind to store extracted data in the Azure Cosmos DB. Code of this article is available on my GitHub [here]().
+Extracting file content in Azure sounds like an easy topic. Let's talk about specific scenario - extracting content from the Excel files. If email is received with Excel file as attachment, we would like to get this content and process it. How to do it? Especially when there is a need to support older file format (xls) and new one (xlsx)? In this article we will go through the implementaton of solution responsible for automated extraction of the contnet from Excel files using Azure Logic Apps and Azure Function Apps. At the end we are goind to store extracted data in the Azure Cosmos DB.
 
 Above diagram presents the flow:
 
