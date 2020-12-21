@@ -2,12 +2,12 @@
 
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/IntroImage.PNG"/>
+  <img src="/azure-api-management/Assets/IntroImage.PNG"/>
 </p>
 &nbsp;
 
 #### You can find my introduction to the Azure API Management in this repository:
-[Azure API Management - jump start](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/AzureApiManagament/AzureApiManagementJumpStart.pdf)
+[Azure API Management - jump start](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/azure-api-management/AzureApiManagementJumpStart.pdf)
 
 #### Additional information:
 
@@ -21,7 +21,7 @@ Once Azure API Management service is ready you should receive e-mail notificatio
 You can find it in the Azure Portal:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM0.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM0.PNG"/>
 </p>
 
 Please note that there are two URL addresses on the right side:
@@ -39,23 +39,23 @@ We will use sample API called Swagget Petsotre available here: https://petstore.
 1. Click APIs tab:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM25.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM25.PNG"/>
 </p>
 
 2. Select "OpenAPI":
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM13.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM13.PNG"/>
 </p>
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM14.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM14.PNG"/>
 </p>
 
 3. Provide below details including OpenAPI specification:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM14.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM14.PNG"/>
 </p>
 
 
@@ -66,13 +66,13 @@ We will use sample API called Swagget Petsotre available here: https://petstore.
 1. Click "Products" section and click "Add" button:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM8.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM8.PNG"/>
 </p>
 
 2. Provide details for the new Product. In this case we will create Product called "Trial". Under this Product our Petstore API will be available so include it in the "APIs" section:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM9.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM9.PNG"/>
 </p>
 
 Done! Now our "Trial" Product is published and we can access Petstore API - let's see how to do it below.
@@ -84,13 +84,13 @@ Now we can add Petstore API to the Trial Product so it is available for the deve
 1. Select "Swagger Petstore" API:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM15.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM15.PNG"/>
 </p>
 
 2. Go to the "Settings" tab and make sure that the configuration looks like below:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM16.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM16.PNG"/>
 </p>
 
 That's it. Now Petstore API is available under Trial subscription. There is one more step - we have to enable access for Developers:
@@ -98,19 +98,19 @@ That's it. Now Petstore API is available under Trial subscription. There is one 
 1. Open Trial Product and select "Access control" tab:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM27.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM27.PNG"/>
 </p>
 
 2. Klick "Add group":
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM28.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM28.PNG"/>
 </p>
 
 3. Select "Developers" group:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM29.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM29.PNG"/>
 </p>
 
 Now you should be able to see Trial product in the Developer portal once registered.
@@ -123,49 +123,49 @@ At the beginning I mentioned about "Developer portal URL". We will use it now to
 1. First of you have to sign up using e-mail (it is good to open Developer Portal in the separate tab to make sure you are not signed in as Administrator). Once its verified you should be able to access Developer portal:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM1.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM1.PNG"/>
 </p>
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM12.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM12.PNG"/>
 </p>
 
 2. After successful registration got to the "Products" tab and select "Trial":
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM2.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM2.PNG"/>
 </p>
 
 3. Click "Add subscription" to get subscription keys:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM3.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM3.PNG"/>
 </p>
 
 4. You should receive e-mail confirmation. Now you can access Petstore API using one of the assigned subscription keys:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM26.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM26.PNG"/>
 </p>
 
 5. Open "Swagger Petstore" API and click "Try it":
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM4.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM4.PNG"/>
 </p>
 
 6. Please note that subscription key is used when sending the new request:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM5.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM5.PNG"/>
 </p>
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM6.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM6.PNG"/>
 </p>
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM7.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM7.PNG"/>
 </p>
 
 ## Apply API Gatway Policies
@@ -184,7 +184,7 @@ We will enable caching responses for 20 seconds:
 1. Select "Find pets by status" endpoint in the "Design" tab and select "Inbound processing":
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM19.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM19.PNG"/>
 </p>
 
 2. Modify source code of the policy to look like below (source code of this policy is also included in the "Policies" folder in this repo):
@@ -214,7 +214,7 @@ We will enable caching responses for 20 seconds:
 3. Now you should see applied caching policy:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM20.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM20.PNG"/>
 </p>
 
 You can test this endpoint using Postman (you can modify the collection I provided in this repo in the "Postman" folder).
@@ -231,11 +231,11 @@ Once you register you should see the JWT token in the broswer - copy it because 
 1. Select "Swagger Petstore" API and then select "Inbound processing":
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM15.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM15.PNG"/>
 </p>
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM18.png"/>
+  <img src="/azure-api-management/Assets/ApiM18.png"/>
 </p>
 
 2. To configure Azure AD B2C JWT token validation policy it is required to provide two details:
@@ -287,7 +287,7 @@ Last policy will be applied to the whole "Trial" product. This one will reduce t
 1. To apply this policy go to the "Products" tab, select "Trial" and then "Policies":
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM10.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM10.PNG"/>
 </p>
 
 2. Paste below policy code:
@@ -313,7 +313,7 @@ Last policy will be applied to the whole "Trial" product. This one will reduce t
 Now up to 5 requests are available in the 60 minutes. If you try to call 6th time you will be notified that quota limit was exceeded. You will be also notified by e-mail:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM11.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM11.PNG"/>
 </p>
 
 
@@ -322,13 +322,13 @@ Now up to 5 requests are available in the 60 minutes. If you try to call 6th tim
 One of the great features of the Azure API Management is analytics related with usage of specific API - including information about failed requests or number of users. You can review this data using "Analytics" tab:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM21.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM21.PNG"/>
 </p>
 
 Swith between different tabs:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM22.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM22.PNG"/>
 </p>
 
 ## Notification templates
@@ -336,11 +336,11 @@ Swith between different tabs:
 It is also possible to customize e-mail templates sent from the Azure API Management - for instance "welcome" messages using "Notification templates" tab:
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM23.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM23.PNG"/>
 </p>
 
 <p align="center">
-  <img src="/AzureApiManagament/Assets/ApiM24.PNG"/>
+  <img src="/azure-api-management/Assets/ApiM24.PNG"/>
 </p>
 
 #### Summary
