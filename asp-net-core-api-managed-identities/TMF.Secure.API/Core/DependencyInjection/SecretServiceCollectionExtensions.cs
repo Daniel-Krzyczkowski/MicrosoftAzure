@@ -14,7 +14,6 @@ namespace TMF.Secure.API.Core.DependencyInjection
         {
             services.AddAzureClients(builder =>
             {
-                TokenCredential credential = new DefaultAzureCredential();
                 builder.AddSecretClient(configuration.GetSection("KeyVault"));
             });
 
