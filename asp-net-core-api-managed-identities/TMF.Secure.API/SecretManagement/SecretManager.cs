@@ -1,5 +1,7 @@
-﻿using Azure.Security.KeyVault.Secrets;
+﻿using Azure;
+using Azure.Security.KeyVault.Secrets;
 using Microsoft.Extensions.Configuration;
+using System;
 using System.Threading.Tasks;
 
 namespace TMF.Secure.API.SecretManagement
@@ -28,8 +30,23 @@ namespace TMF.Secure.API.SecretManagement
 #if DEBUG
             secretValue = _configuration[secretName];
 #else
-            KeyVaultSecret secret = await _secretClient.GetSecretAsync(secretName);
-            secretValue = secret.Value;
+            try
+            {
+                KeyVaultSecret secret = await _secretClient.GetSecretAsync(secretName);
+                secretValue = secret.Value;
+            }
+            catch (RequestFailedException ex)
+            {
+                if (ex.Status == 404)
+                {
+                    return secretValue;
+                }
+
+                else
+                {
+                    throw;
+                }
+            }
 #endif
 
             return secretValue;

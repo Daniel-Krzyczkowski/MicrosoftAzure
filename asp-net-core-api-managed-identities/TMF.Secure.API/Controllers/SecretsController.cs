@@ -20,14 +20,14 @@ namespace TMF.Secure.API.Controllers
         [HttpGet("", Name = "Get secret value by the secret name")]
         public async Task<IActionResult> GetAsync([FromQuery] string secretName)
         {
-            if(string.IsNullOrEmpty(secretName))
+            if (string.IsNullOrEmpty(secretName))
             {
                 return BadRequest();
             }
 
             string secretValue = await _secretManager.GetSecretAsync(secretName);
 
-            if (secretValue != null)
+            if (!string.IsNullOrEmpty(secretValue))
             {
                 return Ok(secretValue);
             }
