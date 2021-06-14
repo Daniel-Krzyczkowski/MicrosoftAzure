@@ -15,7 +15,7 @@ namespace TMF.Secure.API.Core.DependencyInjection
                 builder.AddSecretClient(configuration.GetSection("KeyVault"));
             });
 
-            services.AddSingleton<ISecretManager, SecretManager>();
+            services.AddSingleton<SecretManager>();
 
             return services;
         }

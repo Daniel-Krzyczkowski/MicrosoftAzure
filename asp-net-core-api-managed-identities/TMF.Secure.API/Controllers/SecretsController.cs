@@ -10,9 +10,9 @@ namespace TMF.Secure.API.Controllers
     [Route("[controller]")]
     public class SecretsController : ControllerBase
     {
-        private readonly ISecretManager _secretManager;
+        private readonly SecretManager _secretManager;
 
-        public SecretsController(ISecretManager secretManager)
+        public SecretsController(SecretManager secretManager)
         {
             _secretManager = secretManager;
         }

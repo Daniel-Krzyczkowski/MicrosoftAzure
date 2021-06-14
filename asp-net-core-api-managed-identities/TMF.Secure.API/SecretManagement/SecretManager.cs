@@ -1,17 +1,10 @@
-﻿using Azure;
-using Azure.Security.KeyVault.Secrets;
+﻿using Azure.Security.KeyVault.Secrets;
 using Microsoft.Extensions.Configuration;
-using System;
 using System.Threading.Tasks;
 
 namespace TMF.Secure.API.SecretManagement
 {
-    public interface ISecretManager
-    {
-        Task<string> GetSecretAsync(string secretName);
-    }
-
-    public class SecretManager : ISecretManager
+    public class SecretManager
     {
         private readonly SecretClient _secretClient;
         private readonly IConfiguration _configuration;
