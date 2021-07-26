@@ -4,13 +4,13 @@
 This repository contains sample to help developers implement Auth0 authentication in Microsoft Azure Function and Xamarin Forms application.
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/XF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 <br/>
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 
-In this Proof of Concept (PoC) I secured acces to Microsoft Azure Function access with Auth0. In Xamarin Forms application user has to authenticate first, then access Azure Function with access token retrieved from Auth0 API application.
+In this Proof of Concept (PoC) I secured access to Microsoft Azure Function access with Auth0. In Xamarin Forms application user has to authenticate first, then access Azure Function with access token retrieved from Auth0 API application.
 Please follow below instructions to configure solution:
 
 ## Auth0 API application configuration
@@ -20,33 +20,33 @@ API application and client (mobile) application has to be created in [Auth0 Port
 ### Create API application:
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth1.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/Auth1.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth2.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/Auth2.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/Auth3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 ### Create mobile application client (Xamarin):
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth4.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/Auth4.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth5.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/Auth5.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth6.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/Auth6.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/Auth7.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/Auth7.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 
@@ -58,81 +58,81 @@ Sign in to [Microsoft Azure Portal](https://portal.azure.com) and follow below i
 
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF1.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF1.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF2.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF2.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF4.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF4.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF5.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
-</p>
-
-
-<p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF6.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF5.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF7.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
-</p>
-
-<p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF8.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
-</p>
-
-<p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF9.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
-</p>
-
-<p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF10.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF6.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF11.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF7.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF12.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
-</p>
-
-
-Replace below initial code for function with source code [run.csx file](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/run.csx)
-
-Now upload [project.json file](https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/project.json). This file is required to retrieve Microsoft.IdentityModel.Protocols.OpenIdConnect nuget package:
-
-<p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF13.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF8.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF14.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF9.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="/auth0-azure-functions-auth/images/AF10.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+
+<p align="center">
+<img src="/auth0-azure-functions-auth/images/AF11.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="/auth0-azure-functions-auth/images/AF12.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+
+Replace below initial code for function with source code [run.csx file](/auth0-azure-functions-auth/run.csx)
+
+Now upload [project.json file](/auth0-azure-functions-auth/project.json). This file is required to retrieve Microsoft.IdentityModel.Protocols.OpenIdConnect NuGet package:
+
+<p align="center">
+<img src="/auth0-azure-functions-auth/images/AF13.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+</p>
+
+<p align="center">
+<img src="/auth0-azure-functions-auth/images/AF14.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 Now click Save and verify if compilation succeeded:
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF15.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF15.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/AF16.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/AF16.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 
@@ -153,19 +153,19 @@ Build project and launch the application (UWP, Android or iOS). Once you create 
 
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF1.png" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/XF1.png" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF2.png" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/XF2.png" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/XF3.PNG" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/Daniel-Krzyczkowski/MicrosoftAzure/blob/master/Auth0AzureFunction/images/XF4.png" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
+<img src="/auth0-azure-functions-auth/images/XF4.png" alt="Auth0 secured Microsoft Azure Function with Xamarin Forms"/>
 </p>
 
 
