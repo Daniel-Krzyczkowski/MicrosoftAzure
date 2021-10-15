@@ -12,7 +12,7 @@ namespace TMF.ServiceBusSender.API.Core.DependencyInjection
         {
             var eventBusConfiguration = services.BuildServiceProvider().GetRequiredService<IOptions<EventBusConfiguration>>().Value;
             services.AddSingleton<EventBusConfiguration>(eventBusConfiguration);
-            // Subscription manager is used only when we use topics and subscriptions:
+
             services.AddSingleton<IEventBusSubscriptionsManager, InMemoryEventBusSubscriptionsManager>();
 
             services.AddSingleton(implementationFactory =>
